@@ -1,22 +1,13 @@
-# 📊 Week07 Bootcamp2019a Project: Simple API 1
+# Random Cat Pictures
+Gives you a random cat picture
 
-### Goal: Display data returned from an api
+![alt tag](1.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Created the button in the html and linked the javascript to it. Got the api I needed to get the random picture and created fetch function for it.
+
+## Lessons Learned:
+Tried a different way to use the fetch function
