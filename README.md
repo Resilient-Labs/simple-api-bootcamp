@@ -1,22 +1,16 @@
-# 📊 Week07 Bootcamp2019a Project: Simple API 1
+# My Awesome Project
+This project gives the user local breweries in their state.
 
-### Goal: Display data returned from an api
+![alt tag](brewery.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+In this project I used a brewery API to get a list of breweries in each state.
+
+## Lessons Learned:
+
+In this project I learned how to list through a list of objects and give them a p element within the HTML.
+
+
