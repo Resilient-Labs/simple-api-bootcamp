@@ -10,6 +10,7 @@ function brew(e) {
         //looping through the list of brewerys and giving them a p element
         res.forEach(function(brewery){
             
+            // making container for description and make it equal to p element forEach response
             let description = document.createElement('p')
             document.getElementsByTagName('body')[0].appendChild(description);
 
