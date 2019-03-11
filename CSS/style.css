@@ -1,0 +1,15 @@
+body{
+  width: 80%;
+  background-image: url(https://i.pinimg.com/originals/4e/21/73/4e2173c08de73a91b79e09cfec8ae960.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+button{
+  margin-left: 40%;
+}
+img{
+  margin-left: 25%;
+}
+.imgSection{
+  width: 100%;
+}
