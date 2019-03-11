@@ -1,22 +1,17 @@
-# 📊 Week07 Bootcamp2019a Project: Simple API 1
+# MTG API
+This was my first time seeking out an API I liked and using it. My main objective was to allow users to click a button and generate a random card, though I'm also excited about the many potential optimizations possible here, some of which I mentioned below. Original API info can be found here: /https://api.scryfall.com
 
-### Goal: Display data returned from an api
+![Site screenshot](screenshot.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Really just used some basic HTML & CSS along with the ES6 I used after fetching the data from NASA.
+
+## Optimizations
+There's sooo much I could do with this. I could add buttons that allow users to generate different numbers of cards, 1-4 that are displayed at once as large cards or up to 100 to be displayed. I could also have a search bar that allows the user to search for a specific card, or even use parameters like mana cost/color, power level, deck, etc. This API could be modified relatively easily to allow a great deal of search control for the user.
+
+## Lessons Learned:
+
+Well, for one, I learned that the first API you find isn't the best. Found a very official looking MTG api and couldn't understand it at all, didn't like the way it was set up in the least. After who knows how long of busting my head, I moved on and found a simpler and better API.
