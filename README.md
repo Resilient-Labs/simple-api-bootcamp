@@ -1,4 +1,4 @@
-# 📊 Week07 Bootcamp2019a Project: Simple API 1
+# 📊 Project: Simple API 1
 
 ### Goal: Display data returned from an api
 
