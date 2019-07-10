@@ -1,0 +1,38 @@
+.title {
+  border: 1px solid white;
+  border-left: 40px solid darkgray;
+  border-right: 40px solid darkgray;
+  height: 150px;
+  background-color: #78a;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.contain {
+  border: 1px solid white;
+  height: 650px;
+  border-left: 40px solid darkgray;
+  border-right: 40px solid darkgray;
+}
+
+img {
+  margin-left: -22%;
+  height: 500px;
+  width: 30%;
+  margin-top: 40px;
+}
+
+#submit {
+  width: 15%;
+  height: 50px;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 570px;
+  float: left;
+}
