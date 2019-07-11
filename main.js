@@ -14,6 +14,7 @@ function doSearch() {
   fetch("https://images-api.nasa.gov/search?q=moon")
     .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
     .then(response => {
+      //the function below was created because my json has 100 img
       const random = getRandomInt(0, 99);
       document.getElementById("imageS").src = response.collection.items[random].links[0].href;
     })
