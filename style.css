@@ -1,0 +1,28 @@
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  margin: 0;
+}
+h1{
+  margin: 0 0 -3px 0;
+}
+div{
+  margin: 0;
+  width: 100%;
+}
+form{
+  width: 100%;
+}
+#logo{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+}
+#fetchedImg{
+  border: 1x solid black;
+  width: 99%;
+}
