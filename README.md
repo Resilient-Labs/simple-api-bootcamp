@@ -2,7 +2,7 @@
 
 ### Goal: Upon button click, display randomized Hogwarts houses from Harry Potter API.
 
-**View project in browser:** https://endev-sortinghat-simple-api
+**View project in browser:** https://endev-sortinghat-simple-api.netlify.com
 
 ![alt tag](screenshot.png)
 
