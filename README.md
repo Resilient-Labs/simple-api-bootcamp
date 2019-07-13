@@ -7,7 +7,7 @@
 ![alt tag](screenshot.png)
 
 ## Design and Development:
-**Tech Used** HTML, CSS, JavaScript: 
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
 Using Harry Potter's API, retrieve 4 Hogwarts houses and display randomly along with house information.
 
 ## Reflections:
