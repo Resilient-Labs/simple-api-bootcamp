@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 1
+# 📊 Project: Simple API - Sorting Hat
 
-### Goal: Display data returned from an api
+### Goal: Upon button click, display randomized Hogwarts houses from Harry Potter API.
 
-### How to submit your code for review:
+**View project in browser:** https://endev-sortinghat-simple-api
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Design and Development:
+**Tech Used** HTML, CSS, JavaScript: 
+Using Harry Potter's API, retrieve 4 Hogwarts houses and display randomly along with house information.
+
+## Reflections:
+If I don't ever make anything as a developer again, I can be happy knowing that I've been able to create a Sorting Hat website. I only used their open API to fetch the houses, the other keys they have may be more complicated to access!
+
+## API Source:
+**Harry Potter:** https://www.potterapi.com/
