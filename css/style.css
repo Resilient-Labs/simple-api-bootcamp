@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('file:///Users/melasiamah/Documents/bootcamp2019b/week-08-apis/simple-api-1-cats/images/cat.jpg');
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 31%;
+  font-family: 'Biryani', sans-serif;
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+
+.emojis {
+ margin-left: 0.5%;
+}
+
+p {
+  margin-left: 23%;
+  margin-bottom: 3%;
+  font-family: 'Coming Soon', cursive;
+  font-size: 2rem;
+}
+
+button {
+  margin-left: 37%;
+  padding-top: 0.3%;
+  margin-top: 4%;
+  width: 25%;
+  background-color: lightblue;
+  color: white;
+  border: 7px solid white;
+  height: 61px;
+  border-radius: 17px;
+  font-family: 'Biryani', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: .5rem;
+}
+
+img {
+  height: 400px;
+  margin: auto;
+  display: block;
+}
