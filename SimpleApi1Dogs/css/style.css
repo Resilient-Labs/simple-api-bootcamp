@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/dogBack.jpg");
+  background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size: 10px
+
+}
+
+h1 {
+  margin: 2% 0%;
+  font-family: shadows into light;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 1px 1px red;
+}
+
+form {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.dogImages{
+  float: left;
+  width: 250px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+label {
+
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px red;
+  font-size: 3rem;
+  float: left;
+  font-weight: bold;
+}
+
+input {
+
+line-height: 3rem;
+width: 50%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+  button {
+  outline:none;
+  font-family:'helvetica neue' sans-serif; font-size:2em;
+  color:hsla(350,0%,100%,1); text-shadow:-1px -1px 1px hsla(350,0%,0%,0.7), 1px 1px 1px hsla(350,0%,100%,0.3);
+  display:inline-block;
+  margin:2em 2em;
+  padding:23px 37px 25px 35px;
+  cursor:pointer;
+  background-color:hsla(350,80%,10%,1);
+  background-image:
+    linear-gradient(273deg,hsla(350,80%,60%,1) 30%, hsla(350,80%,50%,1) 40%)
+  ;
+  border:none; border-radius:16px;
+  box-shadow:
+    inset 0px 0px 1px 1px hsla(350,80%,30%,0.9),
+    inset 0px 0px 2px 3px hsla(350,80%,50%,0.9),
+    inset 1px 1px 1px 4px hsla(350,80%,100%,0.8),
+    inset 0px 0px 2px 7px hsla(350,80%,60%,0.8),
+    inset 0px 0px 4px 10px hsla(350,80%,50%,0.9),
+    8px 10px 2px 6px hsla(350,80%,20%,0.55),
+    0px 0px 3px 2px hsla(350,80%,40%,0.9),
+    0px 0px 2px 6px hsla(350,80%,50%,0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/
+    -1px -1px 1px 6px hsla(350,80%,100%,0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/
+    0px 0px 2px 11px hsla(350,80%,50%,0.9),
+    0px 0px 1px 12px hsla(350,80%,40%,0.9),
+    1px 3px 14px 14px hsla(350,80%,0%,0.4)
+  ;
+}
+
+button:active {
+  color:hsla(350,0%,85%,1); padding:26px 34px 22px 38px;
+  background-image:
+    linear-gradient(273deg,hsla(350,80%,50%,1) 50%, hsla(350,80%,55%,1) 60%)
+  ;
+  box-shadow:
+    inset 3px 4px 3px 2px hsla(350,80%,20%,0.55),
+    inset 0px 0px 1px 1px hsla(350,80%,30%,0.9),
+    inset -1px -1px 2px 3px hsla(350,80%,50%,0.9),
+    inset -2px -2px 1px 3px hsla(350,80%,100%,0.8),
+    inset 0px 0px 2px 7px hsla(350,80%,60%,0.8),
+    inset 0px 0px 3px 10px hsla(350,80%,50%,0.9),
+
+    0px 0px 3px 2px hsla(350,80%,40%,0.9),
+    0px 0px 2px 6px hsla(350,80%,50%,0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/
+    -1px -1px 1px 6px hsla(350,80%,100%,0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/
+    0px 0px 2px 11px hsla(350,80%,50%,0.9),
+    0px 0px 1px 12px hsla(350,80%,40%,0.9),
+    1px 3px 14px 14px hsla(350,80%,0%,0.4)
+  ;
+}
