@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bree Serif', serif;
+  background: url("boi.png");
+  background-repeat: no-repeat;
+  background-size: 900px;
+}
+h1 {
+  margin-left: 20%;
+  font-size: 45px;
+}
+
+#button p {
+  border: 1px solid black;
+  width: 20%;
+  margin-left: 33%;
+  padding: 10px 5%;
+  background-color: black;
+  color: white;
+  border-radius: 25%;
+}
+a {
+  text-decoration: none;
+}
+#quote {
+  width: 30%;
+  text-align: center;
+  margin-left: 68%;
+  font-size: 30px;
+}
