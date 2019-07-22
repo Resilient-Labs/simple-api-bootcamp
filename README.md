@@ -16,5 +16,3 @@ The project was create and designed with HTML and CSS. Javascript was used to fe
 ## Lessons Learned:
 
 I enjoyed building this project in honor of one of my favorite poets and activitists, Maya Angelou. The lessons learned in this application were predominantly two: 1) the importance of headers in some apis to gain access to the APIs data. In this case, the link along did not work sufficiently using the fetch method with the api. The second important leasson learn was the utility of valueable developer tools such as postman that enabled me to debug the problem and adjust my fetch in order successfully modify the javascript code as needed utilize the API.
-
-
