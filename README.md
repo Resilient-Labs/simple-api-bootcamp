@@ -1,7 +1,7 @@
 # Simple API - In Maya's Words
 The project is webpage that uses an api to generate random quotes from Maya Angelou, when the "Get Quote" button is selected.
 
-<img src="/InMayasWords%20Screenshot.png?raw=true" alt="screenshot of In Maya's Words webpage" height="200px" )
+<img src="/InMayasWords%20Screenshot.png?raw=true" alt="screenshot of In Maya's Words webpage" height="200px">
 
 ## How It's Made:
 
