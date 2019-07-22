@@ -1,14 +1,16 @@
 # Simple API - In Maya's Words
 The project is webpage that uses an api to generate random quotes from Maya Angelou, when the "Get Quote" button is selected.
 
-<img src="/Web_Sample_Screenshots/screenshot_venturebeats.png" alt="screenshot of venturebeat webpage" height="200px">
-<img src="/InMayasWords%20Screenshot.png?raw=true" alt="screenshot of In Maya's Words webpage" height=200)
+<img src="/InMayasWords%20Screenshot.png?raw=true" alt="screenshot of In Maya's Words webpage" height="200px" )
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
 
 The project was create and designed with HTML and CSS. Javascript was used to fetch an API that generates random quotes, the API allowed for the use of paramaters such as author. This project utilized the parameter, author, and vlaue of Maya Angelou to retrieve a response of the author's quotes. I added an additional quote and increased the range in the randomization method so that the quote woudl also be selected at random. The response was converted to Json and a math methods for randomization were used to randomize the quote. The quote was then sent to the document. 
+
+## Optimizations (Optional):
+
 
 
 ## Lessons Learned:
