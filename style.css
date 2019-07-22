@@ -1,0 +1,188 @@
+* {
+  font-size: 10pt
+}
+
+button {
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(255,255,255,0.9);
+  text-align: center;
+  float: right;
+  margin-right: 11%;
+  font-size: 3rem;
+}
+
+span {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  float: right;
+  display: block;
+  clear: both;
+  width: 30%;
+  text-align: center;
+}
+
+.author {
+  font-weight: bolder;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+  float: right;
+  display: block;
+  clear: both;
+  border: 1px solid white;
+  height: 20px;
+  length: 20px;
+  background-color: white;
+  padding: 0px 3px 0px 3px;
+  margin-right: 17%;
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+
+
+h2 {
+  display: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+ol{
+  display: none;
+}
+
+body {
+  background-image: url(maya-angelou-hires-cropped.jpg);
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.poemHolder {
+  float: right;
+  margin-right: -16%;
+  background-color: black;
+  width: 27%;
+  padding: 3px 10px 10px 10px;
+  margin-top: 61px;
+  height: 100px;
+  border: 5px solid white;
+  text-align: center;
+}
+
+#quote {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 1%;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px){
+body {
+  background-position-y: 0px;
+  background-position-x: center;
+}
+}
+
+
+@media (min-width:1400px) and (max-width 1630px){
+h1 {
+  margin-right: 10%;
+}
+.button {
+  margin-right: 19%
+}
+}
+
+@media (min-width:1000px) and (max-width:1399px){
+h1 {
+  margin-right: 9%;
+}
+.button {
+  margin-right: 19%
+}
+span {
+  margin-right: 7%
+}
+}
+
+@media (min-width:801px) and (max-width:999px){
+h1 {
+  margin-right: 8%;
+}
+.button {
+  margin-right: 21%
+}
+
+span {
+  margin-right: 9%;
+}
+
+.poemHolder {
+  margin-right: -18%;
+}
+
+#quote {
+  font-size: 1.6rem;
+}
+
+}
+
+@media (min-width:670px) and (max-width:800px){
+h1 {
+  margin-right: 8%;
+  font-size: 2.5rem;
+}
+.button {
+  margin-right: 21%
+}
+
+span {
+  margin-right: 9%;
+}
+
+.poemHolder {
+  margin-right: -20%;
+}
+
+#quote {
+  font-size: 1.4rem;
+}
+}
+
+@media (min-width:400px) and (max-width:670px){
+h1 {
+  margin-right: 8%;
+  font-size: 2.0rem;
+}
+.button {
+  margin-right: 21%
+}
+
+span {
+  margin-right: 9%;
+}
+
+.poemHolder {
+  margin-right: -20%;
+}
+
+#quote {
+  font-size: 1.2rem;
+}
+
+body {
+  background-size: auto;
+  background-position-x: -250px;
+}
+}
