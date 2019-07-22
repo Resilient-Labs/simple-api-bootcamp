@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 1
+# Simple API - In Maya's Words
+The project is webpage that uses an api to generate random quotes from Maya Angelou, when the "Get Quote" button is selected.
 
-### Goal: Display data returned from an api
+![screenshot of simple api web page](http://placecorgi.com/1200/650)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The project was create and designed with HTML and CSS. Javascript was used to fetch an API that generates random quotes, the API allowed for the use of paramaters such as author. This project utilized the parameter, author, and vlaue of Maya Angelou to retrieve a response of the author's quotes. I added an additional quote and increased the range in the randomization method so that the quote woudl also be selected at random. The response was converted to Json and a math methods for randomization were used to randomize the quote. The quote was then sent to the document. 
+
+
+## Lessons Learned:
+
+I enjoyed building this project in honor of one of my favorite poets and activitists, Maya Angelou. The lessons learned in this application were predominantly two: 1) the importance of headers in some apis to gain access to the APIs data. In this case, the link along did not work sufficiently using the fetch method with the api. The second important leasson learn was the utility of valueable developer tools such as postman that enabled me to debug the problem and adjust my fetch in order successfully modify the javascript code as needed utilize the API.
+
+
