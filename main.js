@@ -11,5 +11,9 @@ document.querySelector("button").onclick = () => {
         document.querySelector(".first").textContent= res.results.sunrise;
         document.querySelector(".second").textContent= res.results.sunset;
       })
+      .catch(err => {
+        console.log(`error ${err}`);
+        alert('sorry, there are no results for your search');
+      });
   }
 };
