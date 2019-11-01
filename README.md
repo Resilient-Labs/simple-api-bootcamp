@@ -1,4 +1,4 @@
-# 📊 Project: Simple API 1
+# 📊 D&D API
 
 ### Goal: Display data returned from an api
 
