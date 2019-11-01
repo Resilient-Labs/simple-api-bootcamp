@@ -1,0 +1,47 @@
+body{
+  margin-top: 20px;
+  background-image: url(reveal.jpg);
+  background-repeat:none;
+  background-position: center;
+  background-size: cover;
+
+  }
+
+section{
+  display: flex;
+  justify-content: center;
+}
+span{
+  font-size: 5em;
+  color: white;
+  font-weight: 800;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  font-size: 8em;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+h3{
+  color:#e6e6fa;
+  font-size: 6em;
+  margin-top: 23%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+button{
+ border-radius: 20%;
+ font-size: 26px;
+}
+#nameInput{
+ border-radius: 14%;
+ margin-right: 1em;
+ font-size: 17px;
+ font-family: cursive;
+
+}
