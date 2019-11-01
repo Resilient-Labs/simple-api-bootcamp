@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <label for="battleTagInput">Enter Battle Tag: </label>
+        <input id="battleTagInput" type="text">
+        <label for="regionSelect">Select Region: </label>
+        <select name="" id="regionSelect">
+            <option value="us">Americas</option>
+            <option value="eu">Europe</option>
+            <option value="asia">Asia</option>
+        </select>
+        <button id="accountLookupButton">Lookup</button>
+        <table>
+            <tr>
+                <th>Battle Tag: </th>
+                <td id="accountName"></td>
+            </tr>
+            <tr>
+                <th>Level: </th>
+                <td id="accountLevel"></td>
+            </tr>
+            <tr>
+                <th>Endorsement Level: </th>
+                <td id="endorsementLevel"></td>
+            </tr>
+            <tr>
+                <th>Total Wins: </th>
+                <td id="totalWins"></td>
+            </tr>
+        </table>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
