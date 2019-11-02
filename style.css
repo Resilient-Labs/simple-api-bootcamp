@@ -1,0 +1,25 @@
+body {
+  margin-top: 20%;
+  background: url(https://3.bp.blogspot.com/-vMhBoakgEnI/XAwb02Qc7CI/AAAAAAAACVk/cyF6V-dy_CIkacsXnFb0j1CtLW-ZHEqvgCHMYCw/s1600/pokemon-pikachu-wallpaper-1600x900-pokemon-pikachu-rice-pokemon.jpg);
+  background-size: cover;
+}
+.container{
+  text-align: center;
+  height: auto;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+h1 {
+  font-size: 40px;
+}
+input, button {
+  font-size: 30px;
+  text-align: center;
+}
+button {
+  background-color: rgb(255, 243, 150);
+  cursor: pointer;
+  outline: 0;
+}
