@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://content.fortune.com/wp-content/uploads/2014/05/digital-currency-dollar-sign.jpg);
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+form{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 2rem;
+}
