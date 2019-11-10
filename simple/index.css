@@ -1,0 +1,31 @@
+body{
+  background-image: url(catLovers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: antiquewhite;
+  text-align: center;
+  width: 40%;
+}
+
+.myClass{
+  color: dimgrey;
+  text-align: center;
+  width: 40%;
+  margin-top: 20px;
+  line-height: 23px;
+  font-size: 20px;
+}
+
+input {
+  width: 40%;
+  border-radius: 2px;
+  height: 22px;
+  font-size: 15px;
+}
+
+button {
+  height: 21px;
+  cursor: pointer;
+}

@@ -2,21 +2,21 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+* **Project Title: Cat Lovers,Galore**
+  - "Cat Lovers,Galore" is a webpage that gives you descriptions of any and all cat breeds.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+* **Overview**
+  - It pulls data from 'The Cat API'. It receives a concise description of any cat breed's temperament.  
+  - This page was created for any and all cat lovers. That includes people that have cats and would like to know more about their cat. Also for those looking to add a cat to their family and cant decide on the breed.
+
+* **link to project**: https://wizardly-babbage-76d413.netlify.com
+
+* **Image of project**
+![](simple/catGalore.png)
+
+
+* **Getting Started**
+  - Click on the link above
+  - Enter the cat breed you would like more information on (ex: exotic shorthair,  persian, main coon, ragoll)
+  - click on the "Discover" button to unlock a summary on your desired cat Enjoy! :)
