@@ -5,6 +5,7 @@
 ### In this project I made used a simple API in order to provide users with the latest Hacker News:
 
 ### Click Here for News:  https://peaceful-haibt-6c802e.netlify.com/
+![alt text](hackerNews-API-screenShot.png)
 
 
 
