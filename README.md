@@ -1,4 +1,4 @@
-# My To do list
+# Simple Currency Converter API
 This project is a simple to currency converter where you are able to convert currency based on 2 different countries. You will get the latest exchange rates as well as being able to select which country you want as your base and use that to compare with other country's currencies.
 
 
