@@ -4,7 +4,7 @@
 
 ## Try it out here: https://zealous-jones-e861c8.netlify.com/
 
-![alt-text](simple-api-bootcamp/eff-off.png)
+![alt-text](eff-off.png)
 Technolgies Used: 
 - HTML 
 - CSS 
