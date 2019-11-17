@@ -6,7 +6,7 @@ This web app displays a random picture from a dog API at the click of a button. 
 
 **Link to project:** https://objective-fermi-9e9830.netlify.com
 
-![alt tag] (https://github.com/anthonybetances/simple-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%202.28.45%20AM.png) ()
+![alt tag] (https://github.com/anthonybetances/simple-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%202.28.45%20AM.png)
 
 ## How It's Made:
 **Tech used:** HTML, CSS, JavaScript, API
