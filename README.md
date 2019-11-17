@@ -1,22 +1,20 @@
 # 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
+### Goal: Display data returned from an api.
 
-### How to submit your code for review:
+This web app displays a random picture from a dog API at the click of a button.  Because, honestly, who doesn't love a good pup pic?
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to project:** https://objective-fermi-9e9830.netlify.com
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![alt tag] (https://github.com/anthonybetances/simple-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%202.28.45%20AM.png) ()
+
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript, API
+
+## How To Use:
+  1. Click on the link above.
+  2. Click on the "duh" button.
+  3. See dog and smile.
+  4. Repeat (optional).
+  
+  Enjoy!
