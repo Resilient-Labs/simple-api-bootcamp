@@ -1,0 +1,22 @@
+*{
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  text-align: center;
+  background-image: url(grass.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  color: white;
+  font-size: 2em;
+}
+button{
+  background-color: red;
+  border-radius: 6px;
+  font-size: 1em;
+  color: white;
+}
+section{
+  margin: 2em;
+}
