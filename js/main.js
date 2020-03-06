@@ -10,11 +10,19 @@ let searchThis
 let diet
 let exclude 
 let intol
-
+let sec = document.querySelector(`section`)
 
 document.querySelector(`button`).addEventListener(`click`, onClick)
 
 function onClick(){
+  if(sec.hasChildNodes() === true){ //removes all children from sec
+    
+    while (sec.firstChild) {
+      sec.removeChild(sec.lastChild);
+    }
+
+
+}
 
  searchThis = document.querySelector(`#search`).value 
  diet = document.querySelector(`#diet-opt`).value
