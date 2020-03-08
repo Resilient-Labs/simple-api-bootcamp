@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+/* h1{
+  text-align: center; */
+}
+body{
+  background-image:url(bg.jpg);
+}
+img{
+height: 600px;
+width: 100%;
+}
