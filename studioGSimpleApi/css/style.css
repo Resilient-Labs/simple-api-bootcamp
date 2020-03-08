@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1{
+  color: blue;
+}
+
+body{
+  /* background-color: beige; */
+  background-image: url(../snow.gif);
+  background-size: auto;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
