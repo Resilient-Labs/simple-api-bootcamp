@@ -1,0 +1,35 @@
+body{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1{
+  text-align: center;
+  color:  ;
+  margin-top: 120px;
+  font-family: 'Acme', sans-serif;
+  font-size: 60px;
+  -webkit-text-stroke: .5px #ffad33;
+}
+
+p{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  color: #ffad33;
+  -webkit-text-stroke: 2.5px black;
+}
+
+.startButton{
+  width: 12%;
+  height: 30px;
+  border-radius: 50px;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  background-color: #ff9933;
+}
