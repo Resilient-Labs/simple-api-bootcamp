@@ -1,0 +1,45 @@
+body{
+  background-color: #ffb347;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: #2a52be;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+p{
+  text-align: center;
+  margin: 0px;
+  margin-top: 1.5%;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+select{
+  margin-left: 45%;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+button{
+  font-family: 'Fredoka One', cursive;
+  box-shadow: none;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+img{
+  width: 40%;
+  margin: 0px;
+  border-radius: 10px;
+  border: 7px dashed black;
+}
