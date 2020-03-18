@@ -1,22 +1,13 @@
-# 📊 Project: Simple API 1
+# Simple API: Need Something to do? 
+#### Project Scope: Bored? Enter the number of participants and receive a task to do by yourself or with some friends using the bored API!
+#### View here: https://svdev-bored.netlify.com
+![](simpleApi1/simpleApi1.png)
 
-### Goal: Display data returned from an api
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON
 
-### How to submit your code for review:
+# Optimizations:
+#### The drop down input feeds a value into the API address in the fetch and displays a new image in the DOM depending on how many participants are selected.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned: 
+#### To successfully fetch the data from the API, I wrote a template literal in the API address with the assigned value of the input. 
