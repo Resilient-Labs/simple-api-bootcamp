@@ -2,7 +2,7 @@
 
 ### Goal: Display data returned from an api
 
-![ RandomMealGenerator](SimpleAPi1.png)
+![RandomMealGenerator](SimpleAPi1.png)
 
 # Technology Used:
 ### HTML, Javascript, Css, API
