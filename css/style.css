@@ -1,0 +1,14 @@
+img{
+  background-image: url("images/pokemon.jpeg");
+  background-size: cover;
+  width: 70%;
+}
+
+body{
+  background-color: #800000
+}
+
+/* input{
+  height: 50px;
+  width: 50%;
+} */
