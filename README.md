@@ -1,6 +1,6 @@
 # Pokemon Sprite Generator
 
-    Generate Sprites for different pokemon
+    Generate Sprites for different pokemon using a different API 
 
 ## Live Project-
 
