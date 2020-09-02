@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff4f4;
+}
+
+
+img{
+    width: 50%;
+}
+
+#facts{
+    padding: 0 15%;
+    line-height: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 8%;
+    font-size: 17px;
+    background-color: #e9e9dd;
+    border: none;
+    border-radius: 4px;
+    color: #ff8941;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #ff863c;
+    color: #FFF;
+    cursor: pointer;
+}
