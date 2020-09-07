@@ -1,0 +1,18 @@
+body{
+  background-image: url(../images/background.jpg);
+  color: white;
+}
+.titleSec{
+  display: flex;
+  justify-content:center;
+  margin-top: 370px;
+}
+.jokeSec{
+  display: flex;
+  justify-content:center;
+
+}
+.buttonSec{
+  display: flex;
+  justify-content:center;
+}
