@@ -1,0 +1,21 @@
+body{
+  background-image: url(../img/dinnertable.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+img{
+  height: 200px;
+  text-align: center;
+}
+nav{
+  background-color: #c4ae9c;
+  width: 100%;
+  margin-bottom: -20px;
+  text-align:
+}
+form{
+  padding-bottom: 10px;
+}
