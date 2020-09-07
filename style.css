@@ -1,0 +1,56 @@
+*{
+  font-family: Consolas, monaco, monospace;
+}
+body{
+  background-image: url("cosmo.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+img{
+  max-width: 25em;
+  max-height: 25em;
+  margin-top: 3%;
+}
+
+button{
+  outline: none;
+  height: 45px;
+  width: 75px;
+  border-radius: 7px;
+  font-size: 1em;
+  background-color: rgb(1,61,108);
+  color: white;
+  margin-left: 15%;
+  margin-top: 1%;
+  letter-spacing: 2px;
+}
+
+h1, h3{
+  color: white;
+}
+h1{
+  font-size: 2.3em;
+  margin-left: 11%;
+  margin-top: 1%;
+}
+h3, h2{
+  color: rgb(1,61,108);
+  font-size: 1.2em;
+}
+.heyBoy{
+  border: 1px solid rgb(1,61,108);
+  border-style: dashed;
+  width: 35%;
+  margin-left: 1%;
+  background-color: lightgrey;
+  opacity: .7;
+  text-align: center;
+
+}
+/* h1, button, img{
+  margin-left: 60%;
+} */
