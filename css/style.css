@@ -1,0 +1,24 @@
+*{
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+.body{
+  margin-top: 200px;
+}
+h1{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  color: pink;
+}
+
+p{
+  color: green;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 20px;
+  padding: 100px;
+}
+
+input{
+  background-color: pink;
+}
