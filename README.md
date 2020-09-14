@@ -1,22 +1,12 @@
 # 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
+Using the CocktailDB API, I gave it a graphical interface that shows you examples of the drink. I also integrated YouTube to be able to teach you how to make said drink by clicking on the picture.
 
-### How to submit your code for review:
+**Link to project:** https://bartenders-tablet.netlify.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](https://i.imgur.com/p1EBpIG.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, and the CocktailDB API
