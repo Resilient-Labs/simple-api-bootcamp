@@ -15,7 +15,7 @@ This is my Pokedex API! I really wanted to make a pokemon themed project and thi
 Check out some of the other projects I have made working with API!
 
 * [NASA Weather API - Complex](https://github.com/DashlinS/api-complex-nasa/tree/answer)
-* [POKEDEX API](https://github.com/DashlinS/api-Pokedex/tree/answer)
+* [Wise Kanye - API](https://github.com/DashlinS/api-KanyeQuotes/tree/answer)
 * [PurrFact API](https://github.com/DashlinS/api-purrfact/tree/answer)
 * [Country News API]()
 * [NASA Weather API - Simple]()
