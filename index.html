@@ -8,47 +8,59 @@
 		<title>Exercise Generator</title>
 
 		<!-- external CSS link -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;400;500&family=Squada+One&display=swap" rel="stylesheet">
+
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 
-		<h1>Exercise Generator</h1>
-		<select class="muscle" name="muscle">
-			<option value="1">Biceps Brachii</option>
-			<option value="2">Anterior Deltoid</option>
-			<option value="3">Serratus Anterior</option>
-			<option value="4">Pectoralis Major</option>
-			<option value="5">Triceps Brachii</option>
-			<option value="6">Rectus abdominis</option>
-			<option value="7">Gastrocnemius</option>
-			<option value="8">Gluteus maximus</option>
-			<option value="9">Trapezius</option>
-			<option value="10">Quadriceps Femoris</option>
-			<option value="11">Biceps Femoris</option>
-			<option value="12">Latissimus Dorsi</option>
-			<option value="13">Brachialis</option>
-			<option value="14">Obliquus Externus Abdominis</option>
-			<option value="15">Soleus</option>
-		</select>
-		<select class="equipment" name="equipment">
-			<option value="1">Barbell</option>
-			<option value="2">EZ-Bar</option>
-			<option value="3">Dumbell</option>
-			<option value="4">Gym Mat</option>
-			<option value="5">Swiss Ball</option>
-			<option value="6">Pull-up Bar</option>
-			<option value="7">None/BodyWeight</option>
-			<option value="8">Bench</option>
-			<option value="9">Incline Bench</option>
-			<option value="10">Kettlebell</option>
-		</select>
 
-		<button type="button" name="button">Get Exercise</button>
+		<main>
+			<h1><i class="fas fa-dumbbell"></i>Exercise Generator <i class="fas fa-dumbbell"></i></h1>
+			<form class="" action="index.html" method="post">
+				<select class="muscle" name="muscle">
+					<option value="1">Biceps Brachii</option>
+					<option value="2">Anterior Deltoid</option>
+					<option value="3">Serratus Anterior</option>
+					<option value="4">Pectoralis Major</option>
+					<option value="5">Triceps Brachii</option>
+					<option value="6">Rectus abdominis</option>
+					<option value="7">Gastrocnemius</option>
+					<option value="8">Gluteus maximus</option>
+					<option value="9">Trapezius</option>
+					<option value="10">Quadriceps Femoris</option>
+					<option value="11">Biceps Femoris</option>
+					<option value="12">Latissimus Dorsi</option>
+					<option value="13">Brachialis</option>
+					<option value="14">Obliquus Externus Abdominis</option>
+					<option value="15">Soleus</option>
+				</select>
+				<select class="equipment" name="equipment">
+					<option value="1">Barbell</option>
+					<option value="2">EZ-Bar</option>
+					<option value="3">Dumbell</option>
+					<option value="4">Gym Mat</option>
+					<option value="5">Swiss Ball</option>
+					<option value="6">Pull-up Bar</option>
+					<option value="7">None/BodyWeight</option>
+					<option value="8">Bench</option>
+					<option value="9">Incline Bench</option>
+					<option value="10">Kettlebell</option>
+				</select>
 
-		<h2>Exercise</h2>
+				<button type="button" name="button">Get Exercise</button>
+			</form>
 
-		<h3>Instructions</h3>
+
+			<h2>Exercise</h2>
+
+			<h3>Description:</h3>
+			<p></p>
+		</main>
+
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

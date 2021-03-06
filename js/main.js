@@ -1,4 +1,4 @@
-// Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+// would like to remove </> from descriptions, add response for when there is no result
 document.querySelector("button").addEventListener("click", getExercise)
 function getExercise(){
 
@@ -11,11 +11,10 @@ let equipID = document.querySelector(".equipment").value
   .then(data => {
     console.log(data.results)
 
-    // take results, iterate throught them and if they have language english print "description" to dom
     for (let i = 0; i < data.results.length; i++) {
       if (data.results[i].language === 2) {
         document.querySelector("h2").innerText= `Exercise Name: ${data.results[i].name}`
-        document.querySelector("h3").innerText= `Instructions: ${data.results[i].description}`
+        document.querySelector("p").innerText= `${data.results[i].description}`
 
       }
     }
