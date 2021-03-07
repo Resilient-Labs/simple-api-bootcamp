@@ -8,7 +8,7 @@ You Have Food at Home
 
 Here is a simple recipe generator to help you find inspiration to cook food at home, instead of eating out.
 
-<img src="/img/screenshot.PNG" alt="food" style="height: 100px; width:100px;"/>
+<img src="css/img/screenshot.PNG" alt="food" style="height: 100px; width:100px;"/>
 
 ```
 I completed the challenge: 5
