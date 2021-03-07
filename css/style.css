@@ -1,0 +1,48 @@
+
+body {
+  text-align: center;
+  background-image: url('food-bg.png');
+}
+
+table {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+a {
+  color: white;
+}
+
+td {
+  text-align: left;
+}
+
+.form-control {
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 5em;
+  color: #f8dd70;
+}
+
+.btn-primary {
+  background-color: #f8dd70;
+  color: grey;
+}
+
+element.style {
+}
+
+.btn-primary:hover {
+  background-color: brown;
+  color: white;
+}
+
+th {
+  color: white;
+}
