@@ -5,7 +5,7 @@ function joe(){
   const url=`https://pokeapi.co/api/v2/pokemon/${id}`
   const res= await fetch(url)
   const pokemon= await res.json()
-  console.log(pokemon)
+   console.log(pokemon)
   document.querySelector('h2').innerText=`${pokeman} is a ${pokemon.types[0].type.name} type Pokemom`
   document.querySelector('h3').innerText=`The first apperance of ${pokeman} was in Pokemon ${pokemon.game_indices[0].version.name}`
   document.querySelector('h4').innerText=`Speed: ${pokemon.stats[5].base_stat}`
