@@ -1,4 +1,5 @@
-document.querySelector('button').addEventListener('click', getMenu)
+document.querySelector('.enter').addEventListener('click', getMenu)
+document.querySelector('.clear').addEventListener('click', clear)
 
 function getMenu() {
   let inputVal = encodeURIComponent(document.querySelector('input').value)
@@ -15,4 +16,9 @@ function getMenu() {
         document.getElementById('titles').appendChild(listItem)
       }
     })
+}
+
+function clear() {
+  document.querySelector('input').value = ""
+  document.querySelector("#titles").innerHTML = ""
 }
