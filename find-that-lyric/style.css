@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+font-size: 30px;
+font-family: 'Paytone One', sans-serif;
+/* margin-left:10%; */
+}
+.top{
+text-align: center;
+margin-top: 5%;
+}
+body{
+  background: #E5D7BE;
+}
+.box{
+margin-left:36%;
+margin-top: 5%;
+}
+input:hover {
+  background-color:white ;
+}
+input{
+  border: none;
+  display: block;
+  margin-top: 1%;
+  background: lightgrey;
+  text-align: center;
+  height:40px;
+  width:40%;
+
+}
+
+button{
+  margin-left:44%;
+  width:10%;
+  height: 30px;
+  border: none;
+  margin-top:5%;
+  margin-bottom: 5%;
+
+}
+button:hover{
+  color: #BCA88E;
+}
+h3{
+  text-align: center;
+
+}
+
+p{
+  font-family: 'Paytone One', sans-serif;
+
+}
