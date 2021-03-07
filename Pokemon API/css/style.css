@@ -1,0 +1,197 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+html{
+  font-size: 10px;
+}
+.body{
+  height: 1000px;
+  background-image: url('../img/pokeman.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search{
+  height: 75px;
+  width: 100%;
+  float: left;
+  margin-left: 36%;
+}
+input{
+  height: 50px;
+  width: 13%;
+  border-radius: 36px;
+  outline: none;
+  background: aquamarine;
+  font-size: 2.5rem;
+  font-family: 'DotGothic16';
+  padding-left: 14px;
+}
+button{
+  height: 40px;
+  width: 8%;
+  border-radius: 31px;
+  background: aquamarine;
+  font-family: 'DotGothic16';
+  font-size: 2rem;
+  outline: none;
+}
+button:hover{
+  color:white;
+}
+.poke{
+  color: #fff;
+  float: left;
+  width: 100%;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+  height: 100px;
+  text-align: center;
+  font-size: 7rem;
+  font-family: 'DotGothic16',sans-serif;
+}
+.direction{
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  float: left;
+  font-size: 3rem;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+img{
+  height: 550px;
+  margin-left: 12%;
+  float: left;
+  width: 36%;
+  border: 0;
+}
+img:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+h1{
+  height: 64px;
+  float: left;
+  text-align: center;
+  width: 39%;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+h2{
+  height: 64px;
+  float: left;
+  color: red;
+  width: 39%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+h3{
+  height: 50px;
+width: 40%;
+float: left;
+text-align: center;
+font-size: 2rem;
+font-weight: 800;
+color: red;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+h4{
+  height: 64px;
+float: left;
+width: 39%;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+color: red;
+font-weight: 800;
+text-align: center;
+font-size: 2rem;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+h5{
+  height: 64px;
+  float: left;
+  text-align: center;
+  font-weight: 800;
+  width: 39%;
+  font-size: 2rem;
+  color: red;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
