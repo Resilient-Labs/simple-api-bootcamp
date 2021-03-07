@@ -1,22 +1,22 @@
-# 📊 Project: Simple API 1
+# simple-api-gif
 
-### Goal: Display data returned from an api
+This is a simple app that returns 3 GIFs. The user inputs a word/phrase and clicks enter/on the button and 3 related GIFs are returned.
 
-### How to submit your code for review:
+Link to Project: https://simple-gif-api.netlify.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Project Image](/pic/gif.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+This GIF app uses 1 API (giphy). It is made using an input, event listener, function, and fetch statement. First, the user enters a word/phrase as the input. Next, there is an event listener on the 'Get GIF' button/the enter key. When either is clicked, a function runs. Within the function is a fetch statement which contacts the API with the request. Finally, the GIFs are returned to the DOM.  
+
+
+### Lesson Learned
+
+I learned how to fetch data from an API. In this case, the API url needs a word/phrase parameter to fetch the GIFs. The word/phrase is retrieved from the input and inserted into the url through a template literal.  
+ 
+
+###
