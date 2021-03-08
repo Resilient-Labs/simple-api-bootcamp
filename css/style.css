@@ -1,0 +1,58 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /* background-image: url('https://i.pinimg.com/564x/d6/6a/89/d66a891b30655c172a2d6663caebdb34.jpg'); */
+  background-image: url('https://cdn.shopify.com/s/files/1/1876/6853/products/Lemon_1000x.jpg?v=1572981606'); /*lemons*/
+  padding: 0 10%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.main{
+  margin: 0 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 5%;
+  height: 200px;
+
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 1%;
+  padding-top: 5%;
+}
+
+p{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+input{
+  width: 90%;
+  float: left;
+}
+
+button{
+  margin-bottom: 5%;
+  background: rgb(234, 194, 75);
+  border-radius: 60px;
+  float: left;
+
+}
+
+img{
+  margin: 0 30%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
