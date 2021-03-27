@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 18px;
+    border: 2px solid black;
+    background-color:wheat;
+    width:fit-content;
+    margin-left: 38%;
+}
+
+h2{
+    font-size: 2rem;
+    margin-left: 32%;
+    font-weight: 900;
+    margin-bottom: 18px;
+    color: black;
+    border: 2px solid black;
+    background-color:wheat;
+    width:fit-content;
+}
+
+input{
+    margin-left: 45%;
+}
+button{
+    margin-bottom: 18px;
+}
+button:hover{
+    background-color:teal;
+}
+
+ul{
+    margin-left: 26%;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid black;
+    background-color:wheat;
+    width:fit-content;
+    list-style-type: none;
+}
