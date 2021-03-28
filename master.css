@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(soccer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigBody{
+  border: 2px solid black;
+  border-radius: 20%;
+  height: 80vh;
+  width: 75vw;
+  margin: 5% auto;
+  background-color: rgba(0,0,0,0.5);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+}
+.thumbnail{
+  height: 100px;
+  width: 150px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+}
+.search{
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+li{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: inline-grid;
+
+}
+ul{
+  width: 40%;
+  margin: auto;
+font-size: 1.5rem;
+}
