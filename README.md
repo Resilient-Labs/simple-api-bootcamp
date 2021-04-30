@@ -1,4 +1,4 @@
-# Simple NASA API
+# Bible API
 A front end app that leverages the nasa api to retrive the nasa picture of the day
 
 ### link to Project:
