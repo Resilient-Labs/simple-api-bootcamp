@@ -1,0 +1,13 @@
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2015%2F04%2F19%2F11%2F23%2Feast-729676_960_720.jpg&f=1&nofb=1);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-clip: border-box;
+  color: white;
+  font-size: 30px;
+}
+a {
+  font-size: 20px;
+  color: white;
+}
