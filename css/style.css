@@ -1,0 +1,14 @@
+button {
+    border: 0;
+    padding: 40px;
+}
+button:hover {
+    color:aquamarine;
+}
+button:active {
+    background-color:blue;
+}
+section {
+    margin: 30vh;
+    text-align: center;
+}
