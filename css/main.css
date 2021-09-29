@@ -1,0 +1,15 @@
+img{
+    display: none;
+    height: 300px;
+    width: 300px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    width: 300px;
+}
