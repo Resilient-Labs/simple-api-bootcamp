@@ -15,4 +15,7 @@ function pokiInfo(){
     document.querySelector('img').src = data['sprites']['front_default']
     
   })
+  .catch((err) => {
+    console.log(`error ${err}`)
+  });
 }
