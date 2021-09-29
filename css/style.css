@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  background-image: url('bck1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+
+}
+
+h3{
+  font-size: 25px;
+}
+
+img{
+  height:150px;
+}
