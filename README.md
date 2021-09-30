@@ -1,6 +1,6 @@
 # 📊 Project: Simple API 1
 
-## SUBSCRIBE TO MEOW FACTS. 
+## SUBSCRIBE TO MEOW FACTS
 There have been so many furry friends that have been adopted during the pandemic from 2020. If you are in that group, you can use this app to learn more about your new furry friend!
 
 **Link to site:** https://catfacts-nktruong.netlify.app/
