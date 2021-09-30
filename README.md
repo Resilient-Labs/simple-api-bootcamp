@@ -1,22 +1,15 @@
 # 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
+## SUBSCRIBE TO MEOW FACTS. 
+There have been so many furry friends that have been adopted during the pandemic from 2020. If you are in that group, you can use this app to learn more about your new furry friend!
 
-### How to submit your code for review:
+**Link to site:** https://catfacts-nktruong.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## A Picture of the Website:
+![Random Cat Fact: Cats can not taste sweets.](https://user-images.githubusercontent.com/88857875/135516800-232cad7b-e424-4bb0-a397-5f40ca88a3e9.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+**APIs used:** Meow Facts https://meowfacts.herokuapp.com/
