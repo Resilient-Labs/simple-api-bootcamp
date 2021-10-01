@@ -1,22 +1,10 @@
-# 📊 Project: Simple API 1
+<img src = "retrograde.png" width= 98%>
 
-### Goal: Display data returned from an api
+## 🔮 Goal
+Enable a user to enter a date - past, present, or future - and see if that date is within a mercury retrograde.
 
-### How to submit your code for review:
+## 🔮 How it's made
+Made using HTML, CSS, Javascript, API and JSON. This is also a mobile, tablet, and desktop responsive.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## 🔮 Lesson Learned
+This was a really fun one to make. I'm learning that the more I apply these new skills to create sites that interest me, the quicker I get a grasp of the topic. I've been loving this API stuff :-)
