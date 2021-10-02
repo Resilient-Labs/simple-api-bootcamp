@@ -1,4 +1,4 @@
-
+//collabarted with Team hayden to succesfully complete team projects 
 
 document.querySelector(".button").addEventListener("click",Crypto)
 function Crypto(){
@@ -44,3 +44,4 @@ fetch(url)
     })
 }
 fetchCrypto()
+// // collabarted with Team hayden to succesfully complete team projects 
