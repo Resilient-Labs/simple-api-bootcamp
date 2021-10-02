@@ -1,0 +1,38 @@
+body{
+    background-image: url(fridge1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.appHere{
+    align-items:center;
+    width:30%;
+    margin-top:100px;
+    margin-left:30%;
+    margin-right: 30%;
+}
+
+.theSearch, .query, .theRecipes{
+    border: 1px black solid;
+    border-radius: 50% 26%;
+    padding: 40px;
+}
+
+.theSearch{
+    width: 160px;
+    height: 60px;
+    background-color: hsla(0, 66%, 75%, 0.7);
+}
+
+.query{
+    width: 250px;
+    height: 100%;
+    background-color: hsla(0, 66%, 58%, 0.72);
+}
+
+.theRecipes{
+    width: 250px;
+    height:100%;
+    background-color: hsla(0, 48%, 41%, 0.7);
+}
+
