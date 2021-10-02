@@ -1,0 +1,57 @@
+body{
+    background-image: url(lyric.gif);
+    background-size: cover;
+    font-family: monospace;
+}
+
+section{
+    background-color: plum;
+    position: relative;
+    left: 300px;
+    width: 50%;
+    height: 100px;
+
+}
+
+h1{
+    font-size: 30px;
+    padding-left: 25px;
+
+}
+
+p{
+    position: relative;
+    bottom: 20px;
+    left: 220px;
+}
+
+input[type=text] {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 400px;
+    
+}
+
+button{
+    position: relative;
+    left: 400px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: black;
+}
+
+h3{
+    position: relative;
+    left: 450px;
+    background-color: plum;
+    width: 30%;
+
+}
