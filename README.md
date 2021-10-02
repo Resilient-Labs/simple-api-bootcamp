@@ -1,22 +1,20 @@
-# 📊 Project: Simple API 1
+# ₿ CryptoCurrency  Simple API 1
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+<h3> User is able to in put crypto name for update's of NAME,PRICE,RANK,SYMBOl referencing from the chart below search button</h3> 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+###  Link to Project :https://emscryptoapi.netlify.app/
+![Screen Shot 2021-10-02 at 5 07 45 PM](https://user-images.githubusercontent.com/89624071/135731918-72f5ade0-f4b1-4439-b217-8e9e4f2ccc99.png)
 
-Example:
-```
+ ### How It's Made: 
+  <h3>Tech used: 
+HHTML, CSS, JavaScript API</h3>
+  
+### Lessons Learned:
+<h3>API application connects to the Internet and sends data to a server.</h3>
+
+
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Feedback is always appreciated !!!
