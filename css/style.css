@@ -1,0 +1,82 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://t4.ftcdn.net/jpg/03/47/84/65/360_F_347846554_bqFchVslmGtC0W5nZGxqnoXiMqk2pfpG.jpg);
+  background-size: 100% 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.hidden{
+  display: none;
+}
+input {
+  width: 12%;
+  border: 2px solid green;
+  background-color: rgb(91,114,45);
+ color:white
+}
+.textBubble {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+img {
+  width: 30%;
+  max-width: 150px;
+}
+#comment_bubble {
+  width: 45%;
+  background: rgb(154,161,191);
+  position: relative;
+  padding: 0 5px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+#comment_bubble:before {
+  content: "";
+  width: 0;
+  height: 0;
+  right: 100%;
+  top: 50%;
+  position: absolute;
+  border-top: 13px solid transparent;
+  border-right: 26px solid rgb(154,161,191);
+  border-bottom: 13px solid transparent;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
