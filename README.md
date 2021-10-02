@@ -4,7 +4,7 @@
 
 # Description: 
 
-Allows user to enter the artist name and song title and returns the lyrics to that song. 
+Allows user to enter the artist name and song title and returns the lyrics to that song.
 
 # Tech Used:
 
