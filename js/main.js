@@ -3,7 +3,7 @@
 document.querySelector(".button").addEventListener("click",Crypto)
 function Crypto(){
 let crypto = document.querySelector('#crypto').value
-const url = (`https://api.lunarcrush.com/v2?data=assets&key=7go5ymwp08iu332bz58dz8&symbol=${crypto}`)
+const url = (`https://api.lunarcrush.com/v2?data=assets&key=[redacted]8&symbol=${crypto}`)
 fetch(url)
     .then(res => res.json())
     .then(data => {
@@ -22,7 +22,7 @@ fetch(url)
 }
 function fetchCrypto(){
 let crypto  = "BTC,ETC,ETH,DOGE,UNI,LTC,BCH,LINK"
-const url = (`https://api.lunarcrush.com/v2?data=assets&key=7go5ymwp08iu332bz58dz8&symbol=${crypto}`)
+const url = (`https://api.lunarcrush.com/v2?data=assets&&symbol=${crypto}`)
 
 fetch(url)
     .then(res => res.json())
