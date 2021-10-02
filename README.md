@@ -1,11 +1,11 @@
 # 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
+<img width="1297" alt="" src="">
 
+# Description: 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Allows user to enter the artist name and song title and returns the lyrics to that song. 
+
+# Tech Used:
+
+ HTML, CSS, JS, API, JSON 
