@@ -1,8 +1,11 @@
-# 📊 Project: Simple API 1
+# ₿ CryptoCurrency  Simple API 1
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+<h3> User is able to in put crypto name for update's of NAME,PRICE,RANK,SYMBOl referencing from the chart below search button</h3> 
+
+###  Link to Project :https://emscryptoapi.netlify.app/
+![Screen Shot 2021-10-02 at 4 43 52 PM](https://user-images.githubusercontent.com/89624071/135731270-2c682f90-eaaa-4b54-9d0a-5d84feb07459.png)
 
 - Fork and clone this repo
 - Create a new branch called answer
