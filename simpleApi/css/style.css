@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(cat2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  background-color: rgba(255, 255, 255, 0.562);
+  text-align: center;
+  position: absolute;
+  width: 50%;
+  left: 1%;
+  top: 5%;
+}
+h1{
+  font-family: 'Gluten';
+  font-size: 3rem;
+}
+h3, button{
+  font-family: 'Montserrat', sans-serif;
+}
