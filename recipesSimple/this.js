@@ -7,8 +7,7 @@ document.querySelector("button").addEventListener("click", recipeFinder);
 
 function recipeFinder() {
   let theFood = document.querySelector("input").value;
-  let url = `https://api.spoonacular.com/food/search?apiKey=74e96d1004b14f41b1ec9395b8bfa684&query=${theFood}&number=7`;
-  // `https://api.spoonacular.com/food/search?query=${theFood}&number=2&apiKey=74e96d1004b14f41b1ec9395b8bfa684`
+  let url = `https://api.spoonacular.com/food/search?apiKey=use_you_own_api&query=${theFood}&number=7`;
   console.log(theFood);
 
   fetch(url)
@@ -29,13 +28,19 @@ function recipeFinder() {
         console.log(recipe.name)
       ); //issue printing the whole array
       let recipeList = data.searchResults[0].results;
-      for (let i = 0; i < recipeList.length; i++) {
-        let p = document.createElement("p");
-        let text = document.createTextNode(recipeList[i].name);
-        p.appendChild(text);
-        document.querySelector(".theRecipes").appendChild(p);
+      let thisList = ""
+      for (let recipe of recipeList){
+        thisList += recipe.name + "   |  "
+      } 
 
-      }
+      document.querySelector('.theRecipes').innerText = thisList
+      // for (let i = 0; i < recipeList.length; i++) {
+      //   let p = document.createElement("p");
+      //   let text = document.createTextNode(recipeList[i].name);
+      //   p.appendChild(text);
+      //   document.querySelector(".theRecipes").appendChild(p);
+
+      // }
     });
 }
 
