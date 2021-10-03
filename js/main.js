@@ -19,8 +19,7 @@ function getInfo() {
       }
     })
     .catch(err => {
-      document.querySelector('h2').hidden = true
-      displayDefinition.innerText = "We're having trouble finding that word. Try again"
+      document.querySelector('h2').innerText = "We're having trouble finding that word. Try again"
       console.log(`error${err}`)
     })
 }
