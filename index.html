@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
 
-		<title>Blank Template</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
 
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<input id="word" type="text">
+	<title>Dictionary</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1>Dictionary</h1>
+
+	<section class="clearfix">
+		<input id="word" type="text" placeholder="Enter a word">
 		<button id="submit">Get Definition</button>
-
-
-		<h2 id="wordInput"></h2>
-
 		<ul id="allDefinitions"></ul>
+	</section>
+	<h2 id="wordInput"></h2>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>

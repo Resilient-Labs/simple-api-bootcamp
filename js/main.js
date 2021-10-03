@@ -4,7 +4,7 @@ const displayDefinition = document.querySelector('#allDefinitions')
 
 function getInfo() {
   let word = document.querySelector('#word').value
-  let url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=___________`
+  let url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=_______` 
 
   fetch(url)
     .then(res => res.json())
@@ -20,7 +20,7 @@ function getInfo() {
     })
     .catch(err => {
       document.querySelector('h2').hidden = true
-      displayDefinition.innerText = "Oh no, there seems to be an error"
+      displayDefinition.innerText = "We're having trouble finding that word. Try again"
       console.log(`error${err}`)
     })
 }

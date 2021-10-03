@@ -30,19 +30,6 @@
 	float: left;
 	padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
-/*
-1px  = 0.0625rem
-10px = 0.625rem
-12px = 0.75rem
-14px = 0.875rem
-16px = 1rem (base)
-18px = 1.125rem
-20px = 1.25rem
-24px = 1.5rem
-30px = 1.875rem
-32px = 2rem
-*/
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -52,8 +39,62 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background-image: url(img/library-background.jpeg);
+     background-size: auto;
+     background-repeat: no-repeat;
 }
-
+h1 {
+     font-family: 'Playfair Display', serif;
+     font-size: 10vh;
+     margin-left: 10%;
+     margin-top: 1%;}
+h2 {
+     font-family: 'Hind Siliguri', sans-serif;
+}
+section {
+     background-color: rgba(255, 255, 255, 0.5);
+     width: 80%;
+     padding: 5%;
+     margin-top: 7%;
+     border-radius: 30% 10%;
+     margin-left: 10%;
+ }
+ input {
+     font-size: 3vw;
+     background-color: transparent;
+     border: none;
+     border-bottom: .4vw solid darkslategray;
+     color: darkslategrey;
+     padding-right: 10%;
+     padding-left: 1%;}
+input::placeholder {
+     color: darkslategray;
+}
+input:hover::placeholder {
+     color: grey;
+}
+input:focus{
+     outline: none;
+}
+button {
+     font-size: 3vw;
+     border: .4vw solid darkslategray;
+     background-color: rgba(255, 255, 255, 0.5);
+     color: darkslategray;
+     margin-left: 1%;
+     border-radius: 20px;
+}
+button:hover {
+     color: grey;
+}
+ul {
+     padding-top: 4%;
+}
+li {
+     list-style-type: circle;
+     font-size: 2vw;
+     line-height: 2;
+}
 
 /******************************************
 /* LAYOUT
