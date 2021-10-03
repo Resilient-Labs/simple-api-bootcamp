@@ -1,22 +1,21 @@
-# 📊 Project: Simple API 1
+This is a simple Card Captor Sakura API, when the user clicks on the button to draw a card, an image of a clow card and it's name is returned to the DOM.
 
-### Goal: Display data returned from an api
+Link to Project: [https://juliedodev-simpleapi1.netlify.app]
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="simpleapi1.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+How It's Made;
+
+Tech used: 
+<ul>
+<li>HTML<li>
+<li>CSS</li>
+<li>JavaScript<li>
+</ul>
+
+Optimizations:
+
+Lesson Learned:
+
+I learned how to fetch data from an API. The API is needed to fetch the image of the clow card and it's name. 
