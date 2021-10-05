@@ -4,7 +4,7 @@ This dictionary application uses an API to fetch the definition of a user input
 
 ## Link to Project: 
 
-![Dictionary API App Demo](url)
+![Dictionary API App Demo](https://github.com/cat-goncalves/simple-api-bootcamp/blob/answer/css/img/dictionary-api-demo.gif?raw=true)
 
 
 ## How It's Made:
