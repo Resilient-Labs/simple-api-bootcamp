@@ -1,22 +1,19 @@
-# 📊 Project: Simple API 1
+# 📚 Dictionary API 📚
 
-### Goal: Display data returned from an api
+This dictionary application uses an API to fetch the definition of a user input
 
-### How to submit your code for review:
+## Link to Project: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Dictionary API App Demo](https://github.com/cat-goncalves/simple-api-bootcamp/blob/answer/css/img/dictionary-api-demo.gif?raw=true)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+Tech used: HTML, CSS, JavaScript, Dictionary API
+
+
+## Optimizations:
+I optimized this app by adding the functionality to display multiple definitions for each user input
+
+
+## Lessons Learned:
+This project was a great opportunity to practice using APIs

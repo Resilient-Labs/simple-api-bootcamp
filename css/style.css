@@ -1,0 +1,112 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
+     background-image: url(img/library-background.jpeg);
+     background-size: auto;
+     background-repeat: no-repeat;
+}
+h1 {
+     font-family: 'Playfair Display', serif;
+     font-size: 10vh;
+     margin-left: 10%;
+     margin-top: 1%;
+}
+h2 {
+     font-weight: bold;
+     text-transform: capitalize;
+     margin-top: 3%;
+}
+section {
+     background-color: rgba(255, 255, 255, 0.75);
+     width: 80%;
+     padding: 5%;
+     margin-top: 7%;
+     border-radius: 30% 10%;
+     margin-left: 10%;
+ }
+ input {
+     font-size: 3vw;
+     background-color: transparent;
+     border: none;
+     border-bottom: .4vw solid darkslategray;
+     color: darkslategrey;
+     padding-right: 10%;
+     padding-left: 1%;}
+input::placeholder {
+     color: darkslategray;
+}
+input:hover::placeholder {
+     color: grey;
+}
+input:focus{
+     outline: none;
+}
+button {
+     font-size: 3vw;
+     border: .4vw solid darkslategray;
+     background-color: rgba(255, 255, 255, 0.5);
+     color: darkslategray;
+     margin-left: 1%;
+     border-radius: 20px;
+}
+button:hover {
+     color: grey;
+}
+ul {
+     padding-top: 4%;
+}
+li {
+     list-style-type: circle;
+     font-size: 2vw;
+     line-height: 2;
+}
+#wordInput {
+     font-size: 3vw;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
