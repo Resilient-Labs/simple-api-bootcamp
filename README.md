@@ -18,6 +18,7 @@ There have been so many furry friends that have been adopted during the pandemic
 
 * Add more styling to show an animated cat background
 * Have text animations
+* Add color to the site and make the button less dull
 
 ## Lessons Learned:
 
