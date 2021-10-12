@@ -10,6 +10,15 @@ There have been so many furry friends that have been adopted during the pandemic
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** HTML5, CSS3, JavaScript ES6+
 
 **APIs used:** Meow Facts https://meowfacts.herokuapp.com/
+
+# Optimizations
+
+* Add more styling to show an animated cat background
+* Have text animations
+
+## Lessons Learned:
+
+I learned how to search for working cat facts APIS and fetch the data from Meow Facts. I initially had trouble accessing the data, but after looking at the object property it was the same name as my parameter.
