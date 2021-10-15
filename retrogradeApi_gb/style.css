@@ -1,0 +1,64 @@
+body{
+    background-image: url('retrograde.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+
+input, button{
+    font-family: 'Spectral', serif;
+    font-size:15px;
+}
+
+.wholeThing{
+    border: 1px solid black;
+    width:60%;
+    background: white;
+    height:165px;
+    margin-top:20%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    border-bottom: 1px solid black;
+}
+
+button{
+    background: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-left:1%;
+}
+#retrogradeAnswer{
+    font-size:25px;
+    margin:0;
+    margin-top:1.4%;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+body{
+    background-repeat: repeat;
+}
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-image: url('mobile.jpeg');
+    }
+    .wholeThing{
+        height:340px;
+        margin-top:40%;
+    }
+    h1{
+        padding-left:2%;
+        padding-right:2%;
+        padding-bottom:2%;
+    }
+    input, button{
+        margin:2%;
+        margin-bottom: 5%;
+    }
+
+}
