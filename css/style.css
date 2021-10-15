@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  color: ivory;
+  background: url(../biblestudy.jpg);
+}
+h1{
+  font-size: 3rem;
+}
+h3{
+  color: black;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+select, input, button{
+  height: 3rem;
+font-size: 1.5rem;
+padding-left: 1rem;
+}
+h3,h4{
+  font-size: 2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+p{
+  font-size: 1.5rem;
+  width: 75%;
+  margin: auto;
+  color: red;
+}
