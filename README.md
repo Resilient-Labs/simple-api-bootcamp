@@ -2,7 +2,7 @@
 
 Enter the amount of participants you have and we'll help you relieve your boredom, by generating a random activity!
 
-**Live Demo:** https://slot-machine-jenna-nguyen.netlify.app/
+**Live Demo:** <a href="https://relieve-my-boredom-jenna-nguyen.netlify.app/">Demo</a>
 
 <img width="956" alt="Bored API" src="https://user-images.githubusercontent.com/88993361/137761428-bccb6e8d-84ab-4dcc-8012-7e87b78b1db5.png">
 
