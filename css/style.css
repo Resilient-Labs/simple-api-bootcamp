@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../img/wallpaper.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  color: rgb(198 220 81);
+}
+input{
+  width: 7.5em;
+}
+button{
+  margin-top: 14em;
+  background-color: rgb(242 218 151);
+  border:none;
+  width: 6em;
+}
+
+h2{
+  margin-top: 12em;
+  font-size: 1em;
+  color:rgb(242 218 151);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

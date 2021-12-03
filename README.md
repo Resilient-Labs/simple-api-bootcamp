@@ -1,22 +1,12 @@
 # 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
+<img width="1472" alt="Screen Shot 2021-10-01 at 3 16 33 PM" src="https://user-images.githubusercontent.com/88988494/135699533-5e92c67c-e465-48ca-afa2-fe152e8bf083.png">
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Description: 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Allows user to enter the artist name and song title and returns the lyrics to that song.
+
+# Tech Used:
+
+ HTML, CSS, JS, API, JSON 
