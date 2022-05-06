@@ -1,22 +1,25 @@
-# 📊 Project: Simple API 1
+# 🎰 Week08 Bootcamp2021 Project: Simple API 1
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+This is my Simple Pokemon API project that allows users to fetch the name, type, pokedex number, habitat, shiny forms, and pokedex description of any pokemon!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="pokemon.png"></img>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to live site: [https://danielmtran-simplepokemonapi.netlify.app]
+
+### How It's Made:
+
+Tech used: HTML, CSS, JAVASCRIPT
+
+I made the basic styling and layout of the app via HTML and CSS. The main functionality of the app was made using Javascript.
+
+
+### Optimizations:
+
+
+
+
+### Lessons Learned:
+
+This project helped me further practice on working with APIs
