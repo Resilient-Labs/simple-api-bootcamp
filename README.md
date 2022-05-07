@@ -1,22 +1,13 @@
-# 📊 Project: Simple API 1
+#Virtual Art Gallery
 
-### Goal: Display data returned from an api
+### Goal: Create a virtual art showcase. The showcase will display information about the art piece if available.
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+### How It's Made:
+To create this app I used HTML and CSS for structure and style. For the positioning of elements I used Flexbox.
+
+###Functionality
+For this project I implemented Javascript alongside the Metropolitan Museum of Art API. I utilized the API to collect information such as artwork images, origin, artist name, culture where the art is derived from as well as what the item is such as bowl, door, lamp etc. I took this information and passed it through the API so that the user could learn more about artwork, as they would in an in-person art gallery.
