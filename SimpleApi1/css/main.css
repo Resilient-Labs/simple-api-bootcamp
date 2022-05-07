@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+    color: white;
+    font-family: 'Noto Serif', serif;
+
+}
+
+div{
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 12%;
+
+}
+
+h3{
+    font-style: italic;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+h2{
+    margin-top: 15%;
+}
+
+p{
+    font-size: 1.2em;
+}
