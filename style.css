@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("assets/be.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* Artwork container */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Artwork Image */
+img {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* User inputs */
+.country {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.objectId {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 20px;
+  margin: 7px;
+}
