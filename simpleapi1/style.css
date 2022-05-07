@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url('./kanyedance.gif');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
