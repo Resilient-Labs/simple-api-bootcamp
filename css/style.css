@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  /* background-image: url("../img/tile-background-2.png"); */
+  background-color: #0F1331;
+  text-align: center;
+}
+
+main {
+  background: white;
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+
+.topSec {
+  background-color: #0F1331;
+  margin: 0.4%;
+  padding-top: 23px;
+  padding-left: 20px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 70px;
+}
+
+form {
+  float: left;
+}
+input {
+  padding: 0.6%;
+  margin-right: 4.8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  color: #0F1331;
+}
+
+/* .midSec {
+} */
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #0F1331;
+}
+
+li .markedDon {
+  color: grey;
+}
+
+.bottomSec {
+  background-color: #0F1331;
+  margin: 0.4%;
+  height: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 150px;
+  padding: 10px 0% 0px 2.6%;
+}
+ 
+p {
+  color: white;
+  font-size: 2rem;
+}
+
+span {
+  color: black;
+  font-size: 1.6rem;
+  margin-left: 5px;
+  font-size: 2rem;
+}
+
+#toDoLeftText {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600px;
+  margin-right: 4px;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+  color: grey;
+}
+
+ form {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  border: none;
+}
+
+#colorSection {
+  height: 30vh;
+  width: 70%;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+#colorCode {
+  color: white;
+}
+
+label {
+  font-size: 1.3rem;
+  margin-left: -0.3rem;
+}
+
