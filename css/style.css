@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/164886.jpg);
+}
+
+h1 {
+    color: gold;
+    background-color: black;
+    text-align: center;
+}
+
+.inputSection {
+    width: 100%;
+}
+
+.inputDiv {}
+
+.titleInput {}
+
+.yearInput {}
+
+.filmTypeInput {}
+
+button {}
+
+.displayDiv {}
+
+div.poster {}
+
+.poster {
+    width: 10rem;
+    height: 10rem;
+}
+
+.title {}
+
+.released {}
+
+.ratings {}
+
+.genre {}
+
+.director {}
+
+.plot {}
+
+div {
+    color: white;
+}
