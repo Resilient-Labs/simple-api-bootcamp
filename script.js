@@ -4,7 +4,7 @@
 // https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
   
 
-const getPokemon = (data) => {
+const getPokemon = () => {
     const input = document.querySelector('input').value.toLowerCase()
     const api = `https://pokeapi.co/api/v2/pokemon/${input}`
     fetch(api)
@@ -13,7 +13,6 @@ const getPokemon = (data) => {
       console.log(data)
       document.getElementById('typeText').innerText = `${data.name} is an ${data.types[0].type.name} type Pokemon`
       document.querySelector('img').src = data['sprites']['front_default']
-      capitalizeFirstLetter(data.name)
 })
 }
 
