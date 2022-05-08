@@ -6,18 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simple API One</title>
         <!-- Change title once ideal API is picked! -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/stylesheets/normalize.css">
         <link rel="stylesheet" href="assets/stylesheets/style.css">
     </head>
     <body>
         <header>
             <h1>Pokedex</h1>
-            <p>Instructions: Type the name of a pokemon to see a picture of it!</p>
-            <input type="text" class="pokemonName" placeholder="Type Pokemon's name here...">
-            <button class="submitBtn">Who's this Pokemon?!</button>
+            <p>Instructions: Pick a number between 1 and 898!</p>
+            <input type="text" class="pokemonID" placeholder="Type a number between 1 and 248">
+            <button class="submitBtn">Who's that Pokemon?!</button>
+            <button class="randomBtn">Random Pokemon!</button>
         </header>
         
         <main>
             <h2 class="name"></h2>
+            <h4 class="number"></h4>
             <img src="" alt="" class="pokePic">
         </main>
 

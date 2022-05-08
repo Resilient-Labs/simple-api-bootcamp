@@ -5,6 +5,8 @@
 html {
     font-size: 62.5%;
     text-align: center;
+    background: url('../images/toiletfrog.jpg');
+    font-family: 'Signika Negative', Arial, Helvetica, sans-serif;
 }
 
 /* Clearfix Hack */
@@ -22,6 +24,14 @@ html {
 
 header, main {
     font-size: 2rem;
+    background: rgba(248,93,92,.4);
+    margin: 4% 20%;
+    font-weight: 700;
+    padding: 1%;
+}
+
+main {
+    border-radius: 50%;
 }
 
 img {
