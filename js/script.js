@@ -28,13 +28,13 @@ button.addEventListener('click', function () {
             let plotValue = data['Plot']
             let posterValue = data['Poster']
 
-            dir.innerText += directorValue
-            title.innerText += titleValue
+            dir.innerHTML += directorValue
+            title.innerHTML += titleValue
             poster.src += data.poster
-            plt.innerText += plotValue
-            gnre.innerText += genreValue
-            released.innerText += releasedValue
-            ratings.innerText += ratingsValue
+            plt.innerHTML += plotValue
+            gnre.innerHTML += genreValue
+            released.innerHTML += releasedValue
+            ratings.innerHTML += ratingsValue
             poster.innerHTML += `<img src="${data.Poster}">`
 
             console.log(poster)
