@@ -1,0 +1,24 @@
+
+
+#Rec{
+    width:30%;
+    height:400px;
+    float:left;
+    background-color: yellow;
+}
+
+img{
+    width:100%;
+    overflow: hidden;
+}
+
+#header{
+    text-align: center;
+    color:yellow;
+    font-size: 2rem;
+}
+
+body{
+    background: url(food.jpeg);
+   
+}
