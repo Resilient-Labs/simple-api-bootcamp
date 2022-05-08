@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    text-align: center;
 }
 
 body {
@@ -17,7 +18,10 @@ h1 {
     width: 100%;
 }
 
-.inputDiv {}
+.inputDiv {
+    display: flex;
+    justify-content: center;
+}
 
 .titleInput {}
 
@@ -25,28 +29,60 @@ h1 {
 
 .filmTypeInput {}
 
-button {}
+button.button {
+    margin-left: 1rem;
+    width: 5rem;
+}
 
-.displayDiv {}
+.displayDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-div.poster {}
+div.poster {
+    width: 100%;
+    height: 27rem;
+}
 
 .poster {
     width: 10rem;
     height: 10rem;
 }
 
-.title {}
+.title {
+    font-size: 4em;
+    background: black;
+}
 
-.released {}
+.released {
+    font-size: 1.3em;
+    width: auto;
+    background: black;
+}
 
-.ratings {}
+.ratings {
+    font-size: 1.4em;
+    background: black;
+}
 
-.genre {}
+.genre {
+    font-size: 1.6em;
+    background: black;
+    width: auto;
+}
 
-.director {}
+.director {
+    margin-top: 3rem;
+    font-size: 2em;
+    background: black;
+}
 
-.plot {}
+.plot {
+    margin-top: 1%;
+    font-size: 1.3em;
+    background: #000000d4;
+}
 
 div {
     color: white;
