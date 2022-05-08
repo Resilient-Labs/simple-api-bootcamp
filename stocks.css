@@ -1,0 +1,52 @@
+body,html{
+    height: 80%;
+}
+
+body{
+    background-image: url(./images/stockgif.gif);
+    background-size: cover;
+    height: 100%;
+}
+
+h3{
+    color:rgb(7, 255, 139);
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    height: 33px;
+}
+.open{
+    color: rgb(28, 251, 251);
+    font-size: 25px;
+
+}
+.high{
+    color: rgb(17, 240, 17);
+    font-size: 25px;
+
+}
+.low{
+    color: red;
+    font-size: 25px;
+
+}
+.close{
+    color: yellow;
+    font-size: 25px;
+
+}
+.volume{
+    color: blue;
+    font-size: 25px;
+}
+.stockName{
+    font-size: 55px;
+    color: rgb(255, 0, 221);
+}
+
+input{
+    margin-left: 450px;
+    width: 30%;
+    height: 25px;
+}
