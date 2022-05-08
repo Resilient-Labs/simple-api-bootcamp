@@ -1,0 +1,38 @@
+h1{
+color: white;
+margin-left:450px;
+}
+
+body{
+  background-image: url(https://cdn.edu.buncee.com/rackspace/bnc-assets/backgrounds/58b/e18/1488576911_BgLibrary030317_01.jpg);
+  background-size: contain;
+  background-repeat: none;
+  color: white;
+
+}
+
+.title,.titleOne,.titleTwo,.titleThree,.titleFour{
+  font-size: 40px;
+  margin-left:487px;
+}
+
+input{
+margin-left:500px;
+}
+
+button{
+
+}
+
+div{
+
+}
+
+p{
+margin-left:400px;
+width:400px;
+}
+
+img{
+margin-left:520px;
+}
