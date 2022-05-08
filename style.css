@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 50%;
+    height: 300px;
+    margin:  100px 25%;
+    text-align: center;
+    color: white;
+     
+}
+
+body {
+    background: url(../simple-api/animeBG.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+
+h1 {
+    text-shadow: 2px 2px rgb(0, 0, 0 )
+}
