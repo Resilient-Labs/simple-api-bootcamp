@@ -1,22 +1,8 @@
 # 📊 Project: Simple API 1
+![2022-05-14 (3)](https://user-images.githubusercontent.com/102920855/168439027-aa7b5af6-2e4e-4d0f-b772-fcb560b4a103.png)
+![2022-05-14 (4)](https://user-images.githubusercontent.com/102920855/168439033-5ae6c13b-6ce5-4a74-9850-9f711547fc4b.png)
 
-### Goal: Display data returned from an api
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Description
+Users are able to press a button to return a random activity to do. 
+# Tech Used:
+HTML, CSS, JavaScript, API, JSON
