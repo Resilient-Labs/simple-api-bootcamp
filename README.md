@@ -1,22 +1,11 @@
-# 📊 Project: Simple API 1
+# 📊 Project: Complex API 
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+![Kanye West](https://www.billboard.com/wp-content/uploads/2020/04/kanye-west-vanity-fair-02-ap-u-2020-billboard-1548-1586530300.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I built out a Kayne West Quotes site that uses a Kanye Quotes API and displays the data returned from the api.  
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project involved using simple APIS and learning how to set and build with a single API.
+
+Check out the site here https://kanyefamousquotes.netlify.app/ ! 
