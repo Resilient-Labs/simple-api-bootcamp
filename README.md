@@ -1,4 +1,4 @@
-# 📊 Project: Complex API 
+# 📊 Project: Simple API
 
 ### Goal: Display data returned from an api
 
