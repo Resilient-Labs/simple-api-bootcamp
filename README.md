@@ -1,22 +1,21 @@
-# 📊 Project: Simple API 1
+# Quick Pokemon Type Search
 
-### Goal: Display data returned from an api
+Did you get jumped from the tall grass? Elite four bringing you down? Get the type advantage you need with the Pokemon Type Search App!
 
-### How to submit your code for review:
+**Link to project:** https://cydvilla.github.io/simple-api/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt](poke.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+Utilziing JavaScript, this project makes displays retrieves a sprite and type data from the user's desired input. 
+<!-- ## Optimizations
+*(optional)*
+
+You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+PokeAPI has a lot to it. Chaining the properties required a lot of patience understand how the objects were set up.
