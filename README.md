@@ -2,8 +2,7 @@
 
 This is a simple API where the user can click on the "Choose Your Bacon" button and bacon lorem ipsum text will appear.
 
-
-![Screen Shot 2022-04-25 at 1 17 22 PM](https://user-images.githubusercontent.com/102008028/165140205-b5a73f51-fea4-4027-9717-3a9d40bf08ef.png)
+<img width="724" alt="Screen Shot 2022-05-22 at 2 02 12 PM" src="https://user-images.githubusercontent.com/102008028/169709455-05b81649-0475-4a9f-82d7-e6b23d02124e.png">
 
 ## Languages Used 
 
