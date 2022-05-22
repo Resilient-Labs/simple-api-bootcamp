@@ -1,3 +1,20 @@
+# Lorem Ipsum Bacon Baby!
+
+This is a simple API where the user can click on the "Choose Your Bacon" button and bacon lorem ipsum text will appear.
+
+
+![Screen Shot 2022-04-25 at 1 17 22 PM](https://user-images.githubusercontent.com/102008028/165140205-b5a73f51-fea4-4027-9717-3a9d40bf08ef.png)
+
+## Languages Used 
+
+This was created using HTML5, CSS3, and JavaScript. 
+
+## Lessons Learned 
+
+The hardest part of this project was finding a working API.
+
+## Assignment Guidelines Below: 
+
 # 📊 Project: Simple API 1
 
 ### Goal: Display data returned from an api
