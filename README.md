@@ -1,22 +1,18 @@
-# 📊 Project: Simple API 1
+# museumapi
 
-### Goal: Display data returned from an api
 
-### How to submit your code for review:
+# Museum API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This is my Animal Crossing museum API! Users are able to click the button and receive a random artwork from Blathers' museum! It includes the name of the piece and a short description of it as well. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![museumthumb jpg](https://user-images.githubusercontent.com/102040536/172031393-42d9dd25-52e3-4b94-973d-ef2dd110e402.png)
+
+
+
+## How It's Made:
+
+Languages/frameworks use: HTML, CSS, JavaScript
+
+## Thoughts:
+
+Really happy with how this came out. I'm super surprised that there's so many Animal Crossing API's. I did villagers for a complex API already, so I decided to do artwork from the museum for this project! I was able to include a short description and play around a little bit with what details I wanted to show up and what I didn't want to show up. 
