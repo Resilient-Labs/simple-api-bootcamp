@@ -8,7 +8,7 @@
 
 This was created using HTML5, CSS, and Javascript.
 
-I think math is fun so when I found this API, I was excited to use it. At first, I had a button that revealed the answer when clicked, but someone noted that it would not be an interative site. I decided to have the user actively participate and submit a form with their answer. 
+I think math is fun so when I found this API, I was excited to use it. At first, I had a button that revealed the answer when clicked, but someone noted that it would not be an interative site. I decided to have the user actively participate and submit a form with their answer. I added some simple CSS and appeneded all of the API information in the DOM.
 
 ## Lessons Learned
 
