@@ -1,22 +1,15 @@
-# 📊 Project: Simple API 1
+# Simple Math API
 
-### Goal: Display data returned from an api
+<a href="https://kellychhe-simple-math-api.netlify.app/">This website </a>tests the users mental math knowlege. The API generates a random expression and the user enters the answer in the form. Then the user is notified if they got the answer correct after they click submit.
 
-### How to submit your code for review:
+<img width="1440" alt="Screen Shot 2022-06-03 at 9 51 04 AM" src="https://user-images.githubusercontent.com/102538779/172055815-eef4289a-e6f1-434e-9a75-46028845ea48.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Languages Used
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This was created using HTML5, CSS, and Javascript.
+
+I think math is fun so when I found this API, I was excited to use it. At first, I had a button that revealed the answer when clicked, but someone noted that it would not be an interative site. I decided to have the user actively participate and submit a form with their answer. 
+
+## Lessons Learned
+
+I learned the importance of keeping in mind how users interact with a web app.
