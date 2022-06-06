@@ -1,4 +1,4 @@
-# 📊 Project: Simple API 1
+# Forza API Web Application
 
 ### Goal: Display data returned from an api.
 
