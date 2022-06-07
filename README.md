@@ -1,22 +1,8 @@
-# 📊 Project: Simple API 1
+<h1 align="center"> NASA Pic of the day API </h1>
+<p align="center"> This project uses a  Picture of the Dog API.  the user would select the button that says get dog, a picture of a random dog would appear everytime and have the picture/info display in the DOM.</p>
+ 
+![ss7](https://user-images.githubusercontent.com/101954954/172292060-25e88835-67a4-46f9-92ef-3ffc5ffaec1a.png)
 
-### Goal: Display data returned from an api
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+ 
+ Tech used: HTML, CSS, JavaScript, Web API
