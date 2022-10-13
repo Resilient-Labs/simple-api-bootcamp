@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 1000px;
+}
+
+h1, p{
+    text-align: center;
+}
+
