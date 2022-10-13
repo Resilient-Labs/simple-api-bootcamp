@@ -1,0 +1,67 @@
+body{
+    background: -moz-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    margin: 0;
+    background-image: url(dc1.jpg);
+
+}
+
+.results{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px;
+}
+
+.results{
+    
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px;
+    min-height: 600px;
+    width: 600px;
+
+}
+
+.results img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: azure;
+    border: 0;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    margin: 12px ;
+    width: 250px;
+}
+
+button:active{
+    transform: scale(.98);
+
+}
+
+button:focus{
+    outline: none;
+}
