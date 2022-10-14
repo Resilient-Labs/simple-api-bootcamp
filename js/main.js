@@ -1,6 +1,6 @@
 document.querySelector("button").addEventListener("click", () => {
 
-        let randomNum = Math.floor(Math.random() * 52)
+        let randomNum = Math.floor(Math.random() * 53)
 
 
         fetch(`https://thronesapi.com/api/v2/Characters/${randomNum}`)
