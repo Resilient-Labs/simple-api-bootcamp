@@ -2,21 +2,10 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+<img width="1674" alt="Screen Shot 2022-10-13 at 7 52 47 PM" src="https://user-images.githubusercontent.com/91163017/195732980-ed0565e6-e020-49d0-8919-e7570189988c.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript and fetch web API
+
+Used the https://thronesapi.com/ api.
