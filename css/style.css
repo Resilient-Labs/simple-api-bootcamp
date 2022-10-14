@@ -1,0 +1,43 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-image: url(../img/banner.jpeg);
+  background-size: cover;
+}
+
+section {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+button {
+  margin-top: 5rem;
+  color: rgba(162, 45, 42, 1);
+}
