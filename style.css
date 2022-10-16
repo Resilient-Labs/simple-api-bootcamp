@@ -1,0 +1,23 @@
+main {
+    border: 1px solid black;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    background-color: bisque;
+}
+
+div {
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+section {
+    border: 1px solid black;
+    width: 30%;
+    height: 90px;
+    margin: auto;
+    text-align: center;
+    background-color: plum;
+}
