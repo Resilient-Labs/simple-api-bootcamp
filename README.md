@@ -1,8 +1,8 @@
 # Project: Simple API
 
 An application that when a button is pressed a random cat picture will appear.
-Check it out here: https://papaya-sorbet-a0c79c.netlify.app/
-![image](https://user-images.githubusercontent.com/112406976/196259685-e37b4db7-c9d9-485f-9511-aa6b797b4e8f.png)
+Check it out here: https://soft-piroshki-fbc59a.netlify.app/
+![image](https://user-images.githubusercontent.com/112406976/196280189-fd94bddd-eacf-41e2-82a0-1989c184baca.png)
 # Tech Used: HTML, CSS, Javascript 
 This project took HTML, CSS, and Javascript to get the desired result. Used an API to extract data
 and display it back on the DOM. 
