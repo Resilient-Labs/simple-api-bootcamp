@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url('../img/pinkWaves.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button, input {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    float: left;
+    width: 50%;
+}
+
+.main {
+    font-size: 35px;
+}
