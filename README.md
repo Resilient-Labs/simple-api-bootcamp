@@ -1,5 +1,7 @@
 # 📊 Project: Simple API 1
 
+![image](https://user-images.githubusercontent.com/112201564/196259270-e58c8d46-e178-49d1-97d7-da1619c4eb2b.png)
+
 ### Goal: Display data returned from an api
 
 ### How to submit your code for review:
