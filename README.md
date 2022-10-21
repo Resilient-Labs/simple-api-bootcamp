@@ -1,12 +1,10 @@
-# 📊 Project: Simple API 1
+# TV Ratings API
 
 ### Goal: Display data returned from an api
 
 Web application that will display the average rating of any tv show using the IMDB API
 
-[Link to project]()
-
-![card-matching-game-cm netlify app_ (1)](https://user-images.githubusercontent.com/111996055/197078585-6f3137d8-9dcd-4463-81a3-07ca8bee8674.png)
+![tv-ratings-database netlify app__showInput=futurama (1)](https://user-images.githubusercontent.com/111996055/197095250-23b1a68b-54f1-4803-8a52-596b02b220ad.png)
 
 ## How It's Made:
 HTML, CSS, JavaScript
