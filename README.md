@@ -2,21 +2,15 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+Web application that will display the average rating of any tv show using the IMDB API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+[Link to project]()
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![card-matching-game-cm netlify app_ (1)](https://user-images.githubusercontent.com/111996055/197078585-6f3137d8-9dcd-4463-81a3-07ca8bee8674.png)
+
+## How It's Made:
+HTML, CSS, JavaScript
+
+
+## Lessons Learned:
+This project was great practice for communicating with an API and displaying the data returned
