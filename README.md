@@ -4,6 +4,8 @@
 
 Web application that will display the average rating of any tv show using the IMDB API
 
+[Link to project](https://tv-ratings-database.netlify.app/)
+
 ![tv-ratings-database netlify app__showInput=futurama (1)](https://user-images.githubusercontent.com/111996055/197095250-23b1a68b-54f1-4803-8a52-596b02b220ad.png)
 
 ## How It's Made:
