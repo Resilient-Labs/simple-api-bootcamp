@@ -5,6 +5,9 @@ function getInfo(){
         
         for(let i = 0 ; i < data.articles.length; i++){
              console.log(data.articles[1].title)
+             
+             document.getElementById('title').innerText = data.articles[1].title
+             document.getElementById('img').src = data.articles[1].image
          }
     
     })
