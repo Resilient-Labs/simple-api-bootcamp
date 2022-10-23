@@ -1,22 +1,15 @@
-# 📊 Project: Simple API 1
+###📊Simple News API
+#### A simple news api project! https://jasminedm-simple-news-api.netlify.app/
+![A simple news api project! https://jasminedm-simple-news-api.netlify.app/](https://i.imgur.com/cnOjMFm.jpg)
 
-### Goal: Display data returned from an api
+This simple api project request a random news article of the day from a news api and instantly displays its title and image on the dom!
+<hr>
+This project is meant for me to further explore using different api's and is not meant for user interaction other than checking the article daily.
 
-### How to submit your code for review:
+Skills:  JS / HTML / CSS/ API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+
