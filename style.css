@@ -1,0 +1,149 @@
+
+* {
+    box-sizing: border-box;
+}
+header {
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
+    text-align:center;
+    color:white;
+    background:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+header p {
+    color:white;
+    margin-top:0px;
+}
+h1{
+    margin-bottom:.5%;
+    margin-top:1.5%;
+    text-decoration: underline;
+}
+
+body{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+section.filters{
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:5%;
+    padding-right:5%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background:purple;
+    color:white;
+    margin-bottom:2%;
+}
+
+section.leftSide {
+    float:left;
+    width:63%;
+}
+
+
+section#featured {
+    border: 2px solid black; 
+    padding-left:.5%;
+    padding-right:.5%;
+}
+
+section.story1 , section.story2 {
+    width:49%;
+    float: left;
+    border: 2px solid black;
+    margin-top:3%;
+    padding-left:.5%;
+    padding-right:.5%;
+}
+
+section.story1 {
+    margin-right:2%;
+}
+section.rightSide {
+    float:left;
+    width: 35%;
+    margin-left:2%;
+}
+
+section.rightSide > section {
+    width:100%; 
+    border: 2px solid black;    
+    padding-left:.5%;
+    padding-right:.5%;
+}
+
+img {
+    width:100%;
+}
+
+h2, p {
+    width:100%;
+}
+
+span {
+    width:50%;
+    float:left;
+
+}
+
+.author {
+    font-weight:bold;
+    color: red;
+    padding-right: 3%;
+}
+
+.date {
+    color: grey;
+    font-weight: bold;
+}
+
+.rightSide img {
+    float:left;
+}
+
+section.rightAgain{
+    float:left;
+}
+
+section.rightAgain h2 {
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color:black;
+}
+
+section.details{
+    width:100%;
+    overflow: auto;
+}
+
+section.rightSide > section {
+    border: 2px solid black;
+    padding-left:.5%;
+    padding-right:.5%;
+    overflow: auto;
+}
+
+section.rightSide > section + section {
+    margin-top: 3%;
+}
+
+select {
+    margin-right:3%;
+}
+
+label {
+    margin-right:1%;
+}
