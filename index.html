@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>urNEWSPAPER</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -11,14 +11,14 @@
     <body>
         <header>
             <h1>YOUR PERSONAL NEWSPAPER</h1>
-            <p>STAY UP TO DATE WITH THE LATEST INFORMATION</p>
+            <p>STAY UP TO DATE WITH THE LATEST INFORMATION (LOCAL HOST ONLY)</p>
         </header>
         <section class="filters">
             <label for="languageCode">Select a Language: </label>
             <select id="languageCode" name="filter" class="button" true>
+                <option value="en">English</option>
                 <option value="ar">Arabic</option>
                 <option value="de">German</option>
-                <option value="en">English</option>
                 <option value="es">Spanish</option>
                 <option value="fr">French</option>
                 <option value="he">Hebrew</option>
@@ -32,6 +32,7 @@
             </select>
             <label for="countryCode">Select a Country: </label>
             <select id="countryCode" name="filter" class="button" true>
+                <option value="US">United States</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Aland Islands</option>
                 <option value="AL">Albania</option>
@@ -270,7 +271,6 @@
                 <option value="UA">Ukraine</option>
                 <option value="AE">United Arab Emirates</option>
                 <option value="GB">United Kingdom</option>
-                <option value="US">United States</option>
                 <option value="UM">United States Minor Outlying Islands</option>
                 <option value="UY">Uruguay</option>
                 <option value="UZ">Uzbekistan</option>
@@ -285,18 +285,72 @@
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
             </select>
-            <input type="submit" name="filter">
+            <input type="submit" name="filter" id="submit">
         </section>
         <section class="leftSide"> 
-            <section id="featured"></section>
+            <section id="featured">
+                <a id="story0">
+                    <img id="img0">
+                    <h2 id="title0"></h2>
+                    <section class="details">
+                        <span class="author" id="author0"></span>
+                        <span class="date" id="date0"></span>
+                    </section>
+                    <p id="blurb0"></p>
+                </a>
+            </section>
             <section>
-                <section id="storyTwo"></section>
-                <section id="storyThree"></section>
+                <section class="story1">
+                    <a id="story1">
+                        <img id="img1">
+                        <h2 id="title1"></h2>
+                        <section class="details">
+                            <span  class="author" id="author1"></span>
+                            <span  class="date" id="date1"></span>
+                        </section>
+                        <p id="blurb1"></p>
+                    </a>
+                </section>
+                <section class="story2">
+                    <a id="story2">
+                        <img id="img2">
+                        <h2 id="title2"></h2>
+                        <section class="details">
+                            <span class="author"  id="author2"></span>
+                            <span class="date" id="date2"></span>
+                        </section>
+                        <p id="blurb2"></p>
+                    </a>
+                </section>
             </section>
         </section>
         <section class="rightSide">
-            <section id="storyFour"></section>
-            <section id="storyFive"></section>
+            <section >
+                <a id="story3">
+                    <img id="img3">
+                    <section class="rightAgain">
+                        <h2 id="title3"></h2>
+                        <section class="details">
+                            <span class="author" id="author3"></span>
+                            <span class="date" id="date3"></span>
+                        </section>
+                        <p id="blurb3"></p>
+                    </section>  
+                </a>
+            </section>
+            <section >
+                <a id="story4">
+                    <img id="img4">
+                    <section class="rightAgain">
+                        <h2 id="title4"></h2>
+                        <section>
+                            <span class="author" id="author4"></span>
+                            <span class="date"id="date4"></span>
+                        </section>
+                        <p id="blurb4"></p>
+                    </section>
+                </a>
+            </section>
         </section>
 
         <script src="main.js" async defer></script>
