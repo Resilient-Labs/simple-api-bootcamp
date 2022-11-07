@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  padding: 4rem 10%;
+}
+
+header{
+  display: flex;
+  align-items: baseline;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 3rem;
+  margin-right: 1.0rem;
+}
+
+span{
+  font-size: 1.8rem;
+}
+
+form{
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+input{
+  padding: .5rem;
+  margin: 0rem 1.5rem;
+}
+
+section{
+  margin: 2rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.resultText{
+  padding-right: 2rem;
+}
+
+h3{
+  font-size: 1.6rem;
+  font-weight:400;
+}
+
+h2{
+  font-size: 2.8rem;
+  margin-bottom: 0rem;
+  font-weight:700;
+}
+
+h4{
+  font-size: 2.2rem;
+  color: red;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
