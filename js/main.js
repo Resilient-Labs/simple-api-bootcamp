@@ -27,9 +27,16 @@ function getGrub(){
       ${data.meals[0].strIngredient20} ${data.meals[0].strMeasure20}`
     
       document.querySelector('#dir').innerText= `${data.meals[0].strInstructions}`
+
+      
+
+
     })
     .catch(err => {
         console.log(`error ${err}`)
-});
+    });
+
+
+
 }
 document.querySelector('button').addEventListener('click', getGrub)
