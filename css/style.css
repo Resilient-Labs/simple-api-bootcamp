@@ -5,17 +5,39 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  font-family: 'Cinzel', serif;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-#options{
-  border: 1px black solid;
-  width: 40%;
+html{
+  background: url('../img/cooking.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
+body{
+  margin-top: 300px;
+  margin-left: 2%;
+  color: white;
+}
+#dom{
+  display: flex;
+  flex-direction:column ;
+}
+#ingredients{
+  display: flex;
+}
+#directions{
+  display: flex;
+}
+span{
+  margin-left: 50px;
+  width: 25%;
+}
+footer{
+  height: 100px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

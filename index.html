@@ -10,23 +10,26 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>What's for Dinner?</h1>
-		<h2>Get a recipe depending on what dish you want tonight!</h2>
-		<p>Try typing "Wontons" or "Big Mac" to get you started!</p>
-		<p id="options">
-			<strong>Available Recipes:</strong> Corba, Burek, Sushi, Kumpir, Tamiya, Dal Fry, Poutine, Lasange, Timbits, Wontons, Kafteji, Big Mac, Koshari, Fish pie, Kapsalon, Pancakes, Kedgeree, Flamiche, Stamppot, Moussaka, Shawarma, Eton Mess, Ribollita, Yaki Udon, Tourteire.
-		</p>
-		<input type="text" id="meal" value="" placeholder="Region">
-		<button>Get Recipe!</button>
-
 		
+		<input type="text" id="meal" value="" placeholder="Dish Name">
+		<button>Get Recipe!</button>
 		<h3>Happy Cooking!</h3>
-		<h4>Ingredients:</h4>
-		<span id="placeToSee"></span>
-		<h4>Directions:</h4>
-		<span id="dir"></span>
+		<section id="dom">
+			<section id="ingredients">
+				<h4>Ingredients:</h4>
+				<span id="placeToSee"></span>
+			</section>
+			<section id="directions">
+				<h4>Directions:</h4>
+				<span id="dir"></span>
+			</section>
+	</section>
+	<footer></footer>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
