@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+h2{
+  font-size: 3.5rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+span{
+  font-weight: 600;
+}
+
+.box{
+  margin:15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 40%;
+  text-shadow: 1px 1px 6px white;
+}
+
+.search{
+margin: 0px 30px 10% 30px;
+
+}
+
+input{
+  width:300px;
+  height: 35px;
+  padding:10px;
+  border-radius: 10px;
+}
+
+button{
+  width: 100px;
+  padding:9px;
+  border-radius: 10px;
+}
+
+button:hover{
+  color:white;
+  background-color: rgb(165, 67, 67);
+}
+
+button:active{
+  transform: translateY(-4px);
+}
+
+audio{
+  margin: 20px 30px;
+  height:30px;
+  width: 30%;
+}
+
+img{
+  width:10%;
+  height:10%;
+}
+
+.one{
+    margin:20px;
+    width:10%;
+}
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/sunset2.gif");
+    background-size: cover;
+    background-position: center top -150px;
+    z-index: -1; 
+  }
+  
+  .foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/cliff.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+  }
+
+  .gallery{
+    background-color: rgba(122, 92, 92, 0.486);
+mix-blend-mode: multiply;
+  }
+
+  .show{
+    z-index: 4;
+  }
