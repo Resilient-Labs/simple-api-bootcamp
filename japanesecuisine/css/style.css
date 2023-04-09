@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background: url('../css/pic/photo-1528164344705-47542687000d.webp');
+    background-size: cover;
+
+}
+
+h1 {
+    transform: skewY(-10deg);
+    font-family: 'playball';
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgb(136, 41, 52);
+
+}
+
+body {
+    margin-right: 106px;
+}
+
+button {
+    margin-top: 37px;
+    border-radius: 20px;
+    background: rgba(192, 6, 6, 0.635);
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2.5px ridge silver;
+}
+
+h4,
+span,
+h3,
+p,
+h2 {
+    background: rgba(245, 245, 245, 0.638);
+    color: rgb(136, 41, 52);
+    font-family: 'Kelly Slab';
+    width: 35%;
+    margin: auto;
+    margin-top: 21px;
+    border-radius: 50%;
+    ;
+
+}
+
+p {
+    background: whitesmoke;
+    border-radius: 0%;
+}
