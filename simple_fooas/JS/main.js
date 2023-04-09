@@ -4,7 +4,7 @@ document.querySelector("#btn2").addEventListener("click", clickHereOnceMore)
 
 function clickHere() {
     const url = 'http://foaas.com/asshole/-'
-    fetch(url, { headers: { 'Accept': 'text/plain' } })
+    fetch(url, { headers: { 'Accept': 'text/plain' } }) //had to get help with thi code to target the different formatting of the data
         .then(res => res.text())
         .then(data => {
             const btn0 = document.querySelector("#btn0")
