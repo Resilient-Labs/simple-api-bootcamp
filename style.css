@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-image: url('https://media2.giphy.com/media/l2JHPriZtl8lCOwjS/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+
+  h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: blue;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
