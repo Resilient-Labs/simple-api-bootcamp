@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{
+   background: url("../img/Ye\ album\ cover\ image.jpeg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   text-align: center;
+   padding-top: 200px;
+}
+html{
+  color: rgb(44, 246, 84);
+  font-family: "Delicious Handrawn", sans-serif;
+  
+}
+h1{
+  font-size: 3.5rem;
+}
+button{
+  padding: 8px;
+  border-radius: 6px;
+  width: 20%;
+  height: 50px;
+  background-color: rgb(44, 246, 84);
+  font-family: "Delicious Handrawn", sans-serif;
+  font-size: 1.5rem;
+}
+#quote{
+  font-size: 1.5rem;
+}
+h2{
+  font-size: 1.5rem;
+}
