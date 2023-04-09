@@ -1,0 +1,47 @@
+.button, .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    border-left: double thick black;
+    width: 35%;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px 0;
+}
+body{
+    background-color: #3D82AB;
+}
+button{
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px;
+}
+img {
+    /* --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #91D4C2; /* the color */
+    
+    border-radius: 645px;
+    width: 30%;
+    
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  img + img {
+    border-radius: 50%;
+  }
+  
+  
