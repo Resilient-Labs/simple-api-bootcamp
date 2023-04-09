@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif; 
+} 
+
+body {
+    text-align: center; 
+    background-color: blanchedalmond;
+    background-image: url(images/dogpark.png);
+    background-size: cover; 
+	background-repeat: no-repeat;  
+    color:white; 
+    font-weight: 900;
+    font-size: 30px;  
+} 
+
+button:hover {
+    background-color: blue;
+    color: white; 
+}
+
+div {
+float:left; 
+width:100%; 
+height:100px; 
+margin-top:50px; 
+text-align: center;
+} 
