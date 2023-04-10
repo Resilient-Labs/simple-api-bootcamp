@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+body{
+  display: flex;
+}
+div{
+  display: flex;
+  width: 50%;
+  height: 821px;
+  flex-wrap: wrap;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  color: orangered;
+  background-color: black;
+  font-size:1.2rem
+}
+.right{
+  background-image: url(../img/pepe.png);
+  background-size: cover;
+}
+button{
+  background-color: orangered;
+}
+
+.hidden{
+  display:none
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
