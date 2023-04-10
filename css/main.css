@@ -1,0 +1,28 @@
+*{
+  box-sizing:border-box;
+}
+
+h1{
+text-align: center;
+}
+
+.top{
+margin-left:40%;
+}
+
+
+.list{
+width:25%;
+}
+
+body{
+  /*display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;*/
+  background: url(../images/calendar3.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100%;
+}
