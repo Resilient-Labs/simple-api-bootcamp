@@ -1,0 +1,53 @@
+*{
+  font-family: fantasy;
+}
+section{
+  text-align: center;
+  color: #ff4646;
+}
+button{
+  background-color: #ff4646;
+  border: #ff4646;
+  color: #f3d772;
+}
+input{
+  border: solid 1px #ff4646;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  height: 125vh;
+  background-image: url(../film.avif);
+  background-position-x: center;
+  background-size: 10%;
+}
+
+body > div > div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  color: #ff4646;
+  background: white;
+  height: 94vh;
+  
+}
+body > div > div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  color: #ff4646;
+  background: white;
+  height: 94vh;
+}
+body > div > div:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  color: #ff4646;
+  background: white;
+  height: 94vh;
+}
+body > div > div:nth-child(4){
+  display: flex;
+  flex-direction: column;
+  color: #ff4646;
+  background: white;
+  height: 94vh;
+}
