@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: url(../img/dictonarybg.jpg);
+  background-size: cover;
+  
+}
+
+section{
+  float: right;
+  text-align: center;
+  width: 40%;
+  margin: 10% 10%;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  background-color: pink;
+  border-radius: 25%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h4{
+  background-color: lightblue;
+  border-radius: 25%;
+}
+
+h3{
+  background-color: greenyellow;
+  border-radius: 25%;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.hidden{
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
