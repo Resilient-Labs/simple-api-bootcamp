@@ -1,4 +1,5 @@
 # 📊 Project: Simple API 1
+![Yu-gi-oh price checker Screenshot](https://user-images.githubusercontent.com/126501848/230804338-8a2eda90-7740-4b8a-8553-8ca44eee8eed.png)
 
 ### Goal: Display data returned from an api
 
