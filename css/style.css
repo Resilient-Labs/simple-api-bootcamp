@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../img/Wordplay.png);
+}
+
+.definition{
+  background-color: rgba(216, 112, 147, 0.641);
+}
+
+
 /******************************************
 /* LAYOUT
 /*******************************************/
