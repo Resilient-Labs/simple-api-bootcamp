@@ -1,0 +1,48 @@
+body{
+  background-image: url(https://cutewallpaper.org/21/pokemon-scenery-background/Pokemon-forest-by-BlazingIfrit-Fur-Affinity-dot-net.jpg);
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+  font-size: 62.5%
+}
+
+
+h1, h2, h3{
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px 2px red;
+  /* box-shadow: 2px 2px 2px 2px red; */
+}
+
+li{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+button, input{
+  width: 10%;
+  border-radius: 6px;
+  font-size: 2rem;
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+section{
+  display: flex;
+}
