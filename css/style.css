@@ -1,9 +1,33 @@
 *{
     box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
-
+body{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+    padding:50px;
+    background: url("backgroundOne.jpeg") no-repeat;
+    background-size:cover;
+    color:white;
+}
 
 .select{
     display:flex;
+}
+
+
+h1{
+    margin:0;
+    font-size:3rem;
+    text-shadow: 1px 1px 10px ;
+}
+
+p{
+    font-size:2rem;
+    text-shadow: 1px 1px 10px black
 }

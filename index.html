@@ -8,29 +8,30 @@
         <title>Anime Quotes</title>
     </head>
     <body>
-        <h1>Relive your favorite anime moments, search by title or character to see a quote from the anime!</h1>
-        <p class="instructions"></p>
+        <!-- <section class="everything"> -->
+            <h1>Anime Quotes</h1>
+            <p class="instructions">Relive your favorite anime moments | Search by title or character to see a quote from the anime!</p>
 
-        <section class="select">
-            <section>
-                <div>
-                    <input type="radio" id="titleAnime" name="anime" value="titleAnime" >
-                    <label for="titleAnime">Title</label>
-                </div>
-            
-                <div>
-                    <input type="radio" id="characterAnime" name="anime" value="characterAnime">
-                    <label for="characterAnime">Character</label>
-                </div>
+            <section class="select">
+                <section>
+                    <div>
+                        <input type="radio" id="titleAnime" name="anime" value="titleAnime" >
+                        <label for="titleAnime">Title</label>
+                    </div>
+                
+                    <div>
+                        <input type="radio" id="characterAnime" name="anime" value="characterAnime">
+                        <label for="characterAnime">Character</label>
+                    </div>
+                </section>
+
+                <input class="userInput" type="text" placeholder="name">
+
+                <button class="quoteSearch">Search</button>
             </section>
 
-            <input class="userInput" type="text" placeholder="name">
-
-            <button class="quoteSearch">Search</button>
-        </section>
-
-        <h2 class="animeQuote"></h2>
-
+            <h2 class="animeQuote"></h2>
+        <!-- </section> -->
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>
