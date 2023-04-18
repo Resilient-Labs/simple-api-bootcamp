@@ -6,7 +6,6 @@
 body{
     display:flex;
     flex-direction:column;
-    /* justify-content:center; */
     align-items:center;
     min-height:100vh;
     margin:0;
@@ -18,8 +17,12 @@ body{
 
 .select{
     display:flex;
+    align-items:center;
 }
 
+.select section{
+    padding:20px;
+}
 
 h1{
     margin:0;
@@ -29,5 +32,39 @@ h1{
 
 p{
     font-size:2rem;
-    text-shadow: 1px 1px 10px black
+    text-align:center;
+    text-shadow: 1px 1px 10px black;
+}
+
+.select div, .userInput, button{
+    font-size:1.5rem;
+}
+
+button{
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    box-shadow: 4px 3px 2px rgb(212,153,173);
+    text-shadow:1px 1px 1px black;
+}
+
+button:active{
+    transform: translateY(4px);
+}
+
+.animeQuote{
+    text-align:center;
+    font-size:3rem;
+    text-shadow: 1px 1px 5px rgb(35,69,147,0.5);
+    
+}
+
+.quoteBackground{
+    background:linear-gradient(0deg,rgb(54,72,163,0.4),rgb(212,153,173,0.6));
+    padding:20px;
+    border-radius:10px;
+}
+
+.quotesec{
+    margin-top:2rem;
 }

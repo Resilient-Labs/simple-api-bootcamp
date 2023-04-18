@@ -10,7 +10,9 @@ function getQuote(){
         .then((res) => res.json())
         .then((data) => {
             console.log(data)
-            document.querySelector(".animeQuote").innerText = `${data.quote} - ${data.character}`
+            document.querySelector(".animeQuote").innerText = `"${data.quote}" - ${data.character}`
+
+            document.querySelector(".quotesec").classList.add("quoteBackground")
 
         })
         .catch(err => {
@@ -23,7 +25,9 @@ function getQuote(){
         .then((res) => res.json())
         .then((data) => {
             console.log(data)
-            document.querySelector(".animeQuote").innerText = `${data.quote} - ${data.character}`
+            document.querySelector(".animeQuote").innerText = `"${data.quote}" - ${data.character}`
+
+            document.querySelector(".quotesec").classList.add("quoteBackground")
         })
         .catch(err => {
             console.log(`error ${err}`)
