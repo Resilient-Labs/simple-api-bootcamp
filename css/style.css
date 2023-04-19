@@ -15,6 +15,7 @@ html{
   background: url('../img/cooking.png');
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 10px 10px 10px 10px;
 }
 body{
   margin-top: 300px;
