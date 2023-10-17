@@ -3,7 +3,7 @@
 <img width="1421" alt="workout app" src="/img/workout app.png">
 
 # About this project
-This project uses an [exercise API]https://api-ninjas.com/api/exercises which allows users to pick a muscle group and displays 3 exercises they can do using that muscle group.
+This project uses an [exercise API](https://api-ninjas.com/api/exercises) which allows users to pick a muscle group and displays 3 exercises they can do using that muscle group.
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
