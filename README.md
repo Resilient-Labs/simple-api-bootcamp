@@ -2,21 +2,15 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+I used a simple cat fact api to return a cat fact every time the button is clicked!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![image](https://github.com/fjh321/SimpleAPI-1-FJH/assets/64885403/d45d67f5-52d8-46ef-a170-9bdbad352712)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### What I did to build this app:
+
+I used HTML, CSS, JavaScript, and a cat fact API to code this project.
+
+### Lessons Learned :
+
+- I ingrained more JS methods into memory with this API such as createTextNode and appendChild, which helped me with my other API projects as well. 
