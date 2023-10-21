@@ -10,7 +10,11 @@ function getDogFact(e) {
         .then(res => res.json())
         .then(data => {
             console.log(data)
-            document.querySelector('p').innerText = data.data["0"]
+            // document.querySelector('p').innerText = data.data["0"]
+            const newParagraph = document.createElement('p')
+            const catFact = data.data["0"]
+            newParagraph.appendChild((document.createTextNode(`${catFact}`)))
+            document.querySelector('body').appendChild(newParagraph)
         })
         .catch(err => {
             console.log(`error ${err}`)
