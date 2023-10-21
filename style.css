@@ -1,0 +1,81 @@
+div {
+    border: 1px solid black;
+}
+.hidden{
+    display: none;
+}
+
+@font-face {
+    font-family: 'Meatloaf';
+    src: url('Meatloaf.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Meatloaf';
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
+input,button{
+    width: 500px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button{
+    background: black;
+    color: white;
+    /* font-family: 'Meatloaf'; */
+}
+
+#recipes {
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#recipes > ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    float: left;
+}
+
+#recipes > ul > li {
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.803);
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    aspect-ratio: 1/1;
+    overflow: hidden; 
+    border-radius: 4px;
+}
+
+#recipes > ul > li > img {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#foodie{
+    width: 100%;
+}
