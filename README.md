@@ -4,6 +4,7 @@
 
 # About this project
 This project uses an exercise API which allows users to pick a muscle group and displays 3 exercises they can do using that muscle group.
+
 Checkout my project here: https://jacinthadev.github.io/simple-api-1/
 
 ## How It's Made:
