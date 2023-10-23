@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/istockphoto-1205345718-612x612.jpg);
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.joke-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.joke-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.joke {
+    font-size: 18px;
+    color: #444;
+}
