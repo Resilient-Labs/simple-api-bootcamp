@@ -1,0 +1,106 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+#imageContainer img {
+  height: 500px;
+  width: auto;
+  margin-top: 20px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+height: 100%;
+background-color: #f08c89;
+background-image: url(https://html5up.net/uploads/demos/telephasic/assets/css/images/header.svg), linear-gradient(345deg, #FF7088 15%, #F2B69D 55%);
+text-align: center;
+background-size:cover;
+font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-weight: 300;
+  margin-top: 40px;
+}
+p {
+  font-weight: 200;
+}
+/* code pen */
+#userSearch {
+  position: relative;
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  padding: 16px;
+  transition-property: border-color;
+  transition-duration: .2s;
+  cursor: pointer
+}
+ #searchButton {
+  position: relative;
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  padding: 16px;
+  transition-property: border-color;
+  transition-duration: .2s;
+  cursor: pointer;
+  
+  &:hover,
+  &:focus-visible {
+    border-color: transparent;
+    
+    &::before {
+      opacity: 1;
+    }
+  }
+  
+  &:active {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+ #searchButton::before,
+ #searchButton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition-property: opacity;
+}
+
+ #searchButton::before {
+  box-shadow:
+    0 0 2px #fff,
+    0 -2px 6px #f16427,
+    2px 0 6px #36ff00,
+    -2px 0 6px #e22d91,
+    0 2px 6px #3f2aff;
+  transition-duration: .2s;
+}
+
+ #searchButton::after {
+  box-shadow:
+    0 0 8px 4px #fff,
+    0 -4px 12px 4px #f16427,
+    0 4px 12px 4px #3f2aff,
+    -4px 0 12px 4px #e22d91,
+    4px 0 12px 4px #aeff26;
+  transition-duration: .4s;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
