@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    src: url(trajan-pro-regular.ttf);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trajan Pro Regular';
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+img {
+    width: 50%;
+}
+
+textarea {
+    height: 5rem;
+    width: 30rem;
+    background: rgba(250, 250, 250, 0.25);
+    color: black;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+#english {
+    margin-top: 3rem;
+}
+
+button {
+    padding: 0.5rem;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+    margin: 1%;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
