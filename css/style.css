@@ -1,0 +1,33 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+html {
+  background-image: url(https://t3.ftcdn.net/jpg/02/04/69/00/360_F_204690037_aEFcF8RiqS95F8pJJp3q3Xk0fumRIAjj.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.339);
+}
+.quote-container {
+  text-align: center; /* Center content inside the quote container */
+  font-family: 'Delicious Handrawn', sans-serif;
+}
+blockquote {
+  font-size: 24px;
+  font-family: 'Delicious Handrawn', sans-serif;
+}
+p#author {
+  font-size: 20px;
+  font-family: 'Delicious Handrawn', sans-serif;
+}
