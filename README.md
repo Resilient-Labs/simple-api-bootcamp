@@ -7,9 +7,10 @@ Project Name: Image Search App
 Description:
 The Image Search App allows users to search for images based on keywords. Users can enter any subject they are interested in and access a library of free stock photos. The app utilizes the Pexels API to fetch images related to the user's search query and displays a randomly selected image from the search results.
 
-Link to Project: 
+Link to Project: https://alejandralondev.github.io/simple-api-bootcamp/ 
 
-Screenshot:
+Screenshot: <img width="1470" alt="image-search-app-sc" src="https://github.com/alejandralondev/simple-api-bootcamp/assets/145242183/18b926d6-13b5-4ca6-896a-3e3ba3479012">
+
 
 Image Search Web App
 
