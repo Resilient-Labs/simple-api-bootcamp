@@ -2,21 +2,28 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+Project Name: Image Search App
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Description:
+The Image Search App allows users to search for images based on keywords. Users can enter any subject they are interested in and access a library of free stock photos. The app utilizes the Pexels API to fetch images related to the user's search query and displays a randomly selected image from the search results.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to Project: 
+
+Screenshot:
+
+Image Search Web App
+
+How It's Made:
+
+Tech Used: HTML, CSS, JavaScript
+Framework: None (Vanilla JavaScript)
+API: Pexels API for fetching images
+
+Implementation Details:
+The Image Search Web App is built using HTML for the structure, CSS for styling, and JavaScript for functionality. Users input their desired search term, and the app sends a request to the Pexels API to fetch images related to the query. A random image from the search results is displayed on the webpage. The user has the option to continue clicking "search" to fetch a new image should they want to keep looking until desired results. If no images are found for the given search, a corresponding message is shown.
+
+Optimizations:
+Implemented fun CSS for user aesthetic pleasure.
+
+Lessons Learned:
+This project reinforced the importance of responsive design principles, ensuring that the app delivers a consistent and visually appealing experience to users on different devices. 
