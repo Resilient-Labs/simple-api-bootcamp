@@ -1,22 +1,21 @@
-# 📊 Project: Simple API 1
+# Quote Generator 🗣️ 
 
-### Goal: Display data returned from an api
+![Quote Generator Screenshot](img/quotemachine.png)
 
-### How to submit your code for review:
+## Overview 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The Quote Generator 📝 is a web application that allows users to generate random quotes by clicking the "New Quote" button. It fetches random quotes from the Forismatic API using JSONP and displays them on the page. The project provides an engaging way to read inspiring and thought-provoking quotes.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Features
+
+- **Random Quotes:** Click the "New Quote" button to receive a new, random quote.
+- **Quote Author:** The app displays the author's name if available.
+- **Modern Design:** The app is designed with a clean and responsive layout.
+
+## Technologies Used
+
+- **HTML:** The structure of the web page.
+- **CSS:** Styling and layout of the app.
+- **JavaScript:** To interact with the Forismatic API and display quotes.
+- **Forismatic API:** Provides a source of random quotes.
+- **JSONP:** Used to make cross-domain requests to the API.
