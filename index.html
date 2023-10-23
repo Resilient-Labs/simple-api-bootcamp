@@ -10,25 +10,56 @@
 
   <!-- external CSS link -->
   <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <h1> 3-D Cartoon Selfie Image </h1>
-  <label for="cartoonImg">Paste Image Address of Selfie Here: </label>
-  <input id="cartoonImg" placeholder="Paste Img Address Here" type="text" name="" value="">
+  <h1 class="display-1 text-center mb-4"> 3-D Cartoon Selfie Image </h1>
+
+  <div class="btn-container mt-4">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="cartoonImg" placeholder="Paste Img Address Here"
+        aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-warning" type="button" id="button-addon2">Animate Me</button>
+    </div>
+  </div>
 
 
-  <button type="button" name="button">Cartoon Version of Selfie</button>
+  <h2 class="text-center mt-4 mb-4" id="hidden">Take a Pik-achu of you!</h2>
+
+    <div class="d-flex justify-content-center m-5 load" id="hidden-load">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
 
   <!-- Will Print New IMG of face as a cartoon you  -->
-  <h2>Take a peek at the cartoon version of you:</h2>
- 
-  <img id="finalImg" src="" alt="">
-  <p id="notWorking"></p>
+
+  <div class="slideshow-container" id="hidden-slideshow">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+     
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <p id="notWorking" class="text-center"></p>
 
   <script type="text/javascript" src="assets/js/main.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
 
