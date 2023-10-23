@@ -1,22 +1,38 @@
-# 📊 Project: Simple API 1
+# Quote of the Day
 
-### Goal: Display data returned from an api
+This is a simple web application that displays a random quote of the day. It uses the [Quotable API](https://quotable.io/api) to fetch random quotes and displays them to the user.
 
-### How to submit your code for review:
+## Preview
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Quote of the Day Preview](QOTD.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Features
+
+- Fetches a random quote of the day.
+- Displays the quote text and its author.
+- Allows users to load a new random quote.
+
+## Usage
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Click the "New Quote" button to load a new random quote.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- [Quotable API](https://quotable.io/api) for fetching quotes
+
+## Development
+
+To run this application locally for development purposes, you can simply open the `index.html` file in a web browser. The JavaScript code in `script.js` fetches random quotes from the Quotable API.
+
+## Author
+
+Jose Diaz
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
