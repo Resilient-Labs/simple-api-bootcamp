@@ -1,0 +1,129 @@
+/* HTML & CSS sourced from CodePen: https://codepen.io/mattgreenberg/pen/GZyEZN (Weather App by Matthew Greenberg) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define your color variables here */
+:root {
+	--black: black;
+	--white: #FAF7F5;
+	--white2: rgba(255, 255, 255, 0.9);
+	--gray: #9b9b9b;
+	--blue1: #7FADAD;
+	--yellow: #F4CD8B;
+}
+
+/* Keyframes */
+@keyframes container {
+	0% {
+		perspective: 1000px;
+	}
+	100% {
+		perspective: 0px;
+	}
+}
+
+@keyframes card {
+	0% {
+    transform: rotateX(60deg) rotateY(-10deg) rotate(60deg) scale(1.05);
+    box-shadow: 0px 0px 20px 10px var(--yellow); /* Modify as needed since shade function is not available in CSS */
+	}
+	100% {
+    transform: rotateX(0deg) rotateY(0deg) rotate(0deg) scale(0.9);
+    box-shadow: 0px 0px 10px 4px var(--yellow); /* Modify as needed */
+	}
+}
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: var(--yellow);
+	perspective: 1000px;
+	animation-fill-mode: forwards;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.card {
+	height: 38em;
+	width: 25em;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 1em;
+	background: var(--blue1);
+	box-shadow: 0px 0px 20px 10px var(--yellow); /* Modify as needed */
+	overflow: hidden;
+	position: relative;
+	animation: card 2s ease-in;
+	animation-fill-mode: forwards;
+}
+
+.detail{
+	position: absolute;
+	width: 98%;
+	height: 65%;
+}
+
+.circle {
+	position: absolute;
+	width: 35em;
+	height: 16em;
+	bottom: -125%;
+	left: -17%;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.workout-title, .list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.apple-stuff{
+	background-color: #668a8a;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	margin-top: -16rem;
+}
+
+
+.title{
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.title p{
+	font-size: 4rem;
+	margin: 0;
+}
+
+form{
+	margin-top: 15rem;
+}
+
+.list, #muscle-select, h2 {
+    z-index: 9999;
+}
+
+.workout-name{
+	text-align: center;
+    margin-top: 4rem;
+}
+
+.list{
+	margin-top: 13rem;
+}
+
+h3{
+	color: #668a8a;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
