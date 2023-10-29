@@ -1,0 +1,87 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0A74DA; 
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #FF4500; 
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 25px;
+}
+
+h3, h4, h5 {
+  font-size: 1.6em;
+  margin: 15px 0;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  border: 2px solid #FF4500;
+  border-radius: 25px;
+  width: 250px;
+  font-size: 1em;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ae3205;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #FF4500;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #E04000; 
+  transform: translateY(-2px); 
+}
+
+button:active {
+  transform: translateY(0);
+  background-color: #C03000; 
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
