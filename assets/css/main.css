@@ -1,0 +1,38 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Pokemon-Hollow.ttf);
+}
+
+body {
+  background: url(https://i.kym-cdn.com/photos/images/original/001/227/168/442.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn-container {
+  margin: 0% 20% !important;
+}
+
+.slideshow-container {
+ margin: 0% 30% !important;
+}
+
+#hidden-load, #hidden, #hidden-slideshow {
+  display: none  !important;
+}
+
+h1, h2 {
+  font-family: myFirstFont;
+  padding-bottom: 3rem !important;
+  color: rgb(152, 111, 7) !important;
+}
+
+
+
+
