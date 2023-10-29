@@ -1,22 +1,2 @@
-# 📊 Project: Simple API 1
 
-### Goal: Display data returned from an api
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="1389" alt="Screenshot 2023-04-09 at 11 29 30 AM" src="https://user-images.githubusercontent.com/125736610/230781893-f1c0b5c6-9360-4570-87b4-1d72a9a3544a.png">
