@@ -2,21 +2,17 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+### Goal: Connect an API & allow the user to input or recieve data from API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This project is was like setting a light bulb in my head i started to think of all the possiblities with API's & hopefully making one of my own!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How it's Made
+Tech used: HTML, CSS, Javascript
+I used object orientated programming to create the board so that it would reset check for a win after each turn. This was my first project introducing OOP
+### Optimizations
+
+### Lessons Learned
+I learned how to grab & manipulate data from an API it was so cool to see how everything was communicating.
+
+## Example
+![Image Alt Text](./images/dadd.PNG)
