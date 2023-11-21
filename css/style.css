@@ -1,0 +1,156 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font: 62.5% 'Gabarito', Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* display: flex;
+  justify-content: center; */
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  align-content: center;
+  margin: 2rem;
+  padding: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.title h1, .title h2, .title p {
+  padding-bottom: 2%;
+}
+
+.title p {
+  font-size: 2rem;
+}
+
+.userInput input {
+  width: 70%;
+}
+
+.left {
+  width: 30%;
+  padding: 1.5%;
+}
+
+.right {
+  width: 70%;
+  padding: 1.5%;
+  border-left: 0.1rem solid #d5d5d5;
+}
+
+.userInput button {
+  /* height: 4rem; */
+  min-width: 3rem;
+  width: 10%;
+  background: white;
+  cursor: pointer;
+}
+
+.userInput input, .submitBtn {
+  font-size: 2rem;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+}
+
+.userInput input {
+  min-width: 10rem;
+}
+
+.submitBtn {
+  padding: 0;
+}
+
+.headlines {
+  display: flex;
+  /* text-align: left; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1% 0;
+}
+
+.headlines article {
+  display: flex;
+  margin: 1% 0;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 1rem;
+  border: 0.1rem solid #dddee1;
+}
+
+.headlines div {
+  margin: 1.5rem;
+  line-height: 1.2;
+
+}
+
+.headlines a {
+  text-decoration: none;
+  color: #59656f;
+}
+
+.headlines p {
+  margin: 1rem 0;
+}
+
+.headlines h3 {
+  font-size: 2rem;
+}
+
+.headlines p {
+  font-size: 1.4rem;
+}
+
+.articleImage img {
+  width: 25rem;
+  height: 18rem;
+  object-fit: fill;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.userInput input, .submitBtn {
+  border: 0.2rem solid #d5d5d5;
+  
+}
+.submitBtn {
+  background: transparent;
+}
+
+.fade-in-image { 
+  animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#chart {
+  margin: 2% 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.headlines h2 {
+  font-size: 3rem;
+}
