@@ -1,22 +1,12 @@
 # 📊 Project: Simple API 1
 
 ### Goal: Display data returned from an api
+<h1 align="center">My Awesome Project</h1>
 
-### How to submit your code for review:
+<b>Description</b>: App that uses an API to generate infamous Kanye West Quotes
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="1438" alt="Screenshot 2023-10-22 at 8 23 59 PM" src="https://github.com/briannawillis195/simple-api-bootcamp/assets/143905399/9839dd95-5b5e-4c33-afd2-a722e34df30b">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<b>Tech Used</b>: HTML, CSS, JavaScript, JSON
+
+<b>What I Learned</b>: APIs can be so powerful and so simple at the same time. I like how this one had a bunch of random quotes that could be generated just off of pressing the button.
