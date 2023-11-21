@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 1
+# Simple API: "Stuck on a bug? Get inspired!" 
 
-### Goal: Display data returned from an api
+Live Preview: https://codedbycass.github.io/Programming-Quotes/
 
-### How to submit your code for review:
+<img width="1468" alt="Screenshot 2023-10-22 at 11 48 03 PM" src="https://github.com/codedbycass/Programming-Quotes/assets/122684139/333e9806-7350-4739-bbe5-581050c7f842">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## What
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This simple project makes a request to an external server using an API. It's purpose is to inspire programmers with program related quotes!
+
+## How it works
+Tools: HTML, CSS, JavaScript
+
+I used the Fetch API and event listener to send requests to an external server. With this function, after the user clicks the button, a random quote will be generated in the DOM.
+
+## Lessons learned
+Using an API makes programming more efficient! I understand now when they say do not reinvent the wheel. With just 13 lines of code, a simple app can become sophisticated and clean.

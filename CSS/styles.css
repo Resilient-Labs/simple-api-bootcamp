@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../IMAGES/animal-crossing-gaming-pc.avif');
+    background-size: cover;
+}
+
+header, 
+button,
+.quotearea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 6rem;
+}
+
+h2,
+h3 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: plum;
+    margin: 1rem 25rem;
+    opacity: 80%;
+
+}
+
+h1:hover,
+button {
+    color: plum;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    opacity: 90%;
+    margin-bottom: 1rem;
+}
+
+
+button:hover {
+    background: rgb(189, 255, 7);
+}
+
+button {
+    font-family: 'Chivo';
+    text-transform: uppercase;
+}
+
